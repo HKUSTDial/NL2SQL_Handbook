@@ -55,6 +55,7 @@ Translating users' natural language queries (NL) into sql queries can significan
    + `GitHub` [https://github.com/testzer0/AmbiQT](https://github.com/testzer0/AmbiQT)
   + `Paper` [Benchmarking and Improving Text-to-SQL Generation Under Ambiguity](https://arxiv.org/pdf/2310.13659), _Adithya Bhaskar and Tushar Tomar et al._, EMNLP 2023. 
   + `Describe` A novel benchmark called AmbiQT with over 3000 examples where each text is interpretable as two plausible SQLs due to lexical and/or structural ambiguity.
+---
 - **ScienceBenchmark**
    + `GitHub` [https://github.com/testzer0/AmbiQT](https://github.com/testzer0/AmbiQT)
   + `Paper` [A Complex Real-World Benchmark for Evaluating Natural Language to SQL Systems ](https://arxiv.org/pdf/2306.04743), _Adithya Bhaskar and Tushar Tomar et al._, EMNLP 2023. 
