@@ -342,7 +342,129 @@ class BIRD(Dataset):
         )
         return db_paths
     
+
+class CSpider(Dataset):
     
+    ROOT_PATH = "data/cspider"
+    
+    def get_all_questions(self):
+        data_json = []
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "train.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "test_data", "test.json"), "r", encoding="utf-8")))
+        all_questions = [item["question"] for item in data_json]
+        return all_questions
+    
+    def get_all_queries(self):
+        data_json = []
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "train.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "test_data", "test.json"), "r", encoding="utf-8")))
+        all_queries = list(set([item["query"].strip() for item in data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "test_database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "test_database"))]
+        db_paths.extend(
+            [os.path.join(self.ROOT_PATH, "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
+        )
+        return db_paths
+
+
+class SParC(Dataset):
+    
+    ROOT_PATH = "data/sparc"
+    
+    def get_all_questions(self):
+        data_json = []
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "train.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        all_questions = [item["question"] for item in data_json]
+        return all_questions
+        
+    def get_all_queries(self):
+        data_json = []
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "train.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        all_queries = list(set([item["query"].strip() for item in data_json]))
+        return all_queries
+
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
+        return db_paths
+
+
+class CoSpider(Dataset):
+    
+    ROOT_PATH = "data/cospider"
+    
+    def get_all_questions(self):
+        data_json = []
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "sql_state_tracking", "cosql_train.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "sql_state_tracking", "cosql_dev.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        all_questions = [item["question"] for item in data_json]
+        return all_questions
+    
+    def get_all_queries(self):
+        data_json = []
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "sql_state_tracking", "cosql_train.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "sql_state_tracking", "cosql_dev.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        # need to fix "> =" and "< =" issues
+        all_queries = list(set([item["query"].strip().replace("> =", ">=").replace("< =", "<=") for item in data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
+        return db_paths
+
 
 if __name__ == "__main__":
     dataset = Advising()

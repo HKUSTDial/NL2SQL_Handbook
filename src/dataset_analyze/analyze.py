@@ -5,17 +5,20 @@ import os
 
 
 ALL_DATASETS = [
-    ATIS(),
-    GeoQuery(),
-    Restaurants(),
-    Academic(),
-    IMDB(),
-    Yelp(),
-    Scholar(),
-    WikiSQL(),
-    Advising(),
-    Spider(),
-    BIRD()
+    # ATIS(),
+    # GeoQuery(),
+    # Restaurants(),
+    # Academic(),
+    # IMDB(),
+    # Yelp(),
+    # Scholar(),
+    # WikiSQL(),
+    # Advising(),
+    # Spider(),
+    # BIRD(),
+    # CSpider(),
+    # SParC(),
+    CoSpider()
 ]
 
 def report_dataset(dataset: Dataset):
