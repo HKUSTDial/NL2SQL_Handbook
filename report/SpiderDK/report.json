@@ -1,0 +1,15 @@
+{
+    "Number of Questions": 535,
+    "Number of Queries": 283,
+    "Number of Questions / Number of Queries": 1.9,
+    "Total Databases": 169,
+    "Total Tables": 887,
+    "Average Tables per Database": 5.25,
+    "Average Columns per Table": 5.14,
+    "Average Records per Database": 9493.83,
+    "Average Tables per Query": 1.71,
+    "Average Selects per Query": 1.16,
+    "Average Aggs per Query": 0.54,
+    "Average Scalar Functions per Query": 0.0,
+    "Average Math Computations per Query": 0.0
+}

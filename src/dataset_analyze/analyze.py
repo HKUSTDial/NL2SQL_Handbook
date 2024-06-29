@@ -18,11 +18,30 @@ ALL_DATASETS = [
     # BIRD(),
     # CSpider(),
     # SParC(),
-    CoSpider()
+    # CoSpider(),
+    # SpiderSyn(),
+    # SpiderRealistic(),
+    # SpiderDK(),
+    # DrSpider(),
+    # SQUALL(),
+    # FIBEN(),
+    # KaggleDBQA(),
+    # SEDE(),
+    # MTTEQL(),
+    # AmbiQT()
 ]
 
 def report_dataset(dataset: Dataset):
-    report_database_complexity = generate_report_database_complexity(dataset.get_all_db_paths(), is_wikisql=isinstance(dataset, WikiSQL))
+    if dataset.get_all_db_paths():
+        report_database_complexity = generate_report_database_complexity(dataset.get_all_db_paths(), is_wikisql=isinstance(dataset, WikiSQL))
+    else:
+        report_database_complexity = {
+            "Total Databases": dataset._total_databases,
+            "Total Tables": dataset._total_tables,
+            "Average Tables per Database": dataset._avg_tables_per_db,
+            "Average Columns per Table": dataset._avg_columns_per_table,
+            "Average Records per Database": dataset._avg_records_per_db
+        }
     report_query_complexity = generate_report_query_complexity(dataset.get_all_queries())
     num_questions = len(dataset.get_all_questions())
     num_quries = len(dataset.get_all_queries())

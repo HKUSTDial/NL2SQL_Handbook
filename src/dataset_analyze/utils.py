@@ -60,7 +60,11 @@ def generate_report_query_complexity(queries: list[str]):
     math_computes_per_query = []
     
     for query in queries:
-        sql_parser = SQLParser(query)
+        try:
+            sql_parser = SQLParser(query)
+        except Exception as e:
+            print(e)
+            continue
         tables_per_query.append(sql_parser.count_table)
         selects_per_query.append(sql_parser.count_select)
         aggs_per_query.append(sql_parser.count_aggregation)

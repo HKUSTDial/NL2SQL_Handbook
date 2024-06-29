@@ -1,5 +1,6 @@
 import os
 import json
+import pandas as pd
 
 
 class Dataset:
@@ -466,8 +467,297 @@ class CoSpider(Dataset):
         return db_paths
 
 
+class SpiderSyn(Dataset):
+    
+    ROOT_PATH = "data/spider_syn"
+    
+    def get_all_questions(self):
+        data_json = json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8"))
+        all_questions = [item["SpiderSynQuestion"] for item in data_json]
+        return all_questions
+    
+    def get_all_queries(self):
+        data_json = json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8"))
+        all_queries = list(set([item["query"].strip() for item in data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
+        return db_paths
+    
+    
+class SpiderRealistic(Dataset):
+    
+    ROOT_PATH = "data/spider_realistic"
+    
+    def get_all_questions(self):
+        data_json = json.load(open(os.path.join(self.ROOT_PATH, "spider_realistic.json"), "r", encoding="utf-8"))
+        all_questions = [item["question"] for item in data_json]
+        return all_questions
+    
+    def get_all_queries(self):
+        data_json = json.load(open(os.path.join(self.ROOT_PATH, "spider_realistic.json"), "r", encoding="utf-8"))
+        all_queries = list(set([item["query"].strip() for item in data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
+        return db_paths
+
+
+class SpiderDK(Dataset):
+    
+    ROOT_PATH = "data/spider_dk"
+    
+    def get_all_questions(self):
+        data_json = json.load(open(os.path.join(self.ROOT_PATH, "spider_dk.json"), "r", encoding="utf-8"))
+        all_questions = [item["question"] for item in data_json]
+        return all_questions
+    
+    def get_all_queries(self):
+        data_json = json.load(open(os.path.join(self.ROOT_PATH, "spider_dk.json"), "r", encoding="utf-8"))
+        all_queries = list(set([item["query"].strip() for item in data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
+        return db_paths
+
+
+class DrSpider(Dataset):
+    
+    ROOT_PATH = "data/dr_spider"
+    
+    def get_all_questions(self):
+        all_perturbations = os.listdir(os.path.join(self.ROOT_PATH))
+        data_json = []
+        for perturbation in all_perturbations:
+            if perturbation.startswith("DB_"):
+                question_file_name = "questions_post_perturbation.json"
+            else:
+                question_file_name = "questions_post_perturbation.json"
+            data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, perturbation, question_file_name), "r", encoding="utf-8")))
+
+        all_questions = [item["question"] for item in data_json]
+        return all_questions
+    
+    def get_all_queries(self):
+        all_perturbations = os.listdir(os.path.join(self.ROOT_PATH))
+        data_json = []
+        for perturbation in all_perturbations:
+            if perturbation.startswith("DB_"):
+                question_file_name = "questions_post_perturbation.json"
+            else:
+                question_file_name = "questions_post_perturbation.json"
+            data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, perturbation, question_file_name), "r", encoding="utf-8")))
+
+        all_queries = list(set([item["query"].strip() for item in data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        all_perturbations = os.listdir(os.path.join(self.ROOT_PATH))
+        db_paths = []
+        for perturbation in all_perturbations:
+            if perturbation.startswith("DB_"):
+                db_dir_name = "database_post_perturbation"
+            else:
+                db_dir_name = "databases"
+            for db_id in os.listdir(os.path.join(self.ROOT_PATH, perturbation, db_dir_name)):
+                if os.path.isdir(os.path.join(self.ROOT_PATH, perturbation, db_dir_name, db_id)):
+                    db_paths.append(os.path.join(self.ROOT_PATH, perturbation, db_dir_name, db_id, f"{db_id}.sqlite"))
+        return db_paths
+    
+
+class SQUALL(Dataset):
+    
+    ROOT_PATH = "data/squall"
+    
+    def get_all_questions(self):
+        all_data_json = json.load(open(os.path.join(self.ROOT_PATH, "squall.json"), "r", encoding="utf-8"))
+        return [" ".join(item["nl"]) for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = json.load(open(os.path.join(self.ROOT_PATH, "squall.json"), "r", encoding="utf-8"))
+        all_queries = []
+        for item in all_data_json:
+            sql = " ".join([tok[1] for tok in item["sql"]])
+            all_queries.append(sql.strip())
+        return list(set(all_queries))
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "db", db_file) for db_file in os.listdir(os.path.join(self.ROOT_PATH, "db"))]
+        return db_paths
+    
+
+class FIBEN(Dataset):
+    
+    ROOT_PATH = "data/fiben"
+    
+    def __init__(self):
+        all_table_csv = os.listdir(os.path.join(self.ROOT_PATH, "data"))
+        self._total_databases = 1
+        self._total_tables = len(all_table_csv)
+        all_table_dataframe = []
+        for table_csv in all_table_csv:
+            try:
+                df = pd.read_csv(os.path.join(self.ROOT_PATH, "data", table_csv), header=None, low_memory=False)
+                all_table_dataframe.append(df)
+            except pd.errors.EmptyDataError:
+                all_table_dataframe.append(pd.DataFrame())
+        total_columns, total_records = 0, 0
+        for table_dataframe in all_table_dataframe:
+            total_columns += len(table_dataframe.columns)
+            total_records += len(table_dataframe)
+        self._avg_tables_per_db = self._total_tables / self._total_databases
+        self._avg_columns_per_table = total_columns / self._total_tables
+        self._avg_records_per_db = total_records / self._total_databases
+    
+    def get_all_questions(self):
+        all_data_json = json.load(open(os.path.join(self.ROOT_PATH, "FIBEN_Queries.json"), "r", encoding="utf-8"))
+        return [item["question"] for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = json.load(open(os.path.join(self.ROOT_PATH, "FIBEN_Queries.json"), "r", encoding="utf-8"))
+        all_queries = list(set([item["SQL"].strip() for item in all_data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        return []
+    
+
+class KaggleDBQA(Dataset):
+    
+    ROOT_PATH = "data/kaggledbqa"
+    
+    def get_all_questions(self):
+        all_data_json = []
+        for filename in os.listdir(os.path.join(self.ROOT_PATH, "examples")):
+            if "_fewshot" in filename or "_test" in filename:
+                continue
+            all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "examples", filename), "r", encoding="utf-8")))
+        return [item["question"] for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = []
+        for filename in os.listdir(os.path.join(self.ROOT_PATH, "examples")):
+            if "_fewshot" in filename or "_test" in filename:
+                continue
+            all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "examples", filename), "r", encoding="utf-8")))
+        all_queries = list(set([item["query"].strip() for item in all_data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "databases", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "databases"))]
+        return db_paths
+    
+
+class SEDE(Dataset):
+    
+    ROOT_PATH = "data/sede"
+    
+    def __init__(self):
+        schemas = json.load(open(os.path.join(self.ROOT_PATH, "tables_so.json"), "r", encoding="utf-8"))
+        self._total_databases = len(schemas)
+        self._total_tables = 0
+        total_columns, total_records = 0, 0
+        for db in schemas:
+            self._total_tables += len(db["table_names_original"])
+            total_columns += (len(db["column_names_original"]) - 1) # ignore star col
+        self._avg_tables_per_db = self._total_tables / self._total_databases
+        self._avg_columns_per_table = total_columns / self._total_tables
+        self._avg_records_per_db = total_records / self._total_databases
+    
+    def get_all_questions(self):
+        all_data_json = []
+        for filename in ["train.jsonl", "val.jsonl", "test.jsonl"]:
+            with open(os.path.join(self.ROOT_PATH, filename), "r", encoding="utf-8") as f:
+                for line in f.readlines():
+                    sample = json.loads(line)
+                    all_data_json.append(sample)
+        return [item["Title"] for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = []
+        for filename in ["train.jsonl", "val.jsonl", "test.jsonl"]:
+            with open(os.path.join(self.ROOT_PATH, filename), "r", encoding="utf-8") as f:
+                for line in f.readlines():
+                    sample = json.loads(line)
+                    all_data_json.append(sample)
+        all_queries = list(set([item["QueryBody"].split("\n\n")[-1] for item in all_data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        return []
+
+
+class MTTEQL(Dataset):
+    
+    ROOT_PATH = "data/mt_teql"
+    
+    def __init__(self):
+        schemas = []
+        for filename in ["dev-tables.json", "train-tables.json"]:
+            schemas.extend(json.load(open(os.path.join(self.ROOT_PATH, filename), "r", encoding="utf-8")))
+        self._total_databases = len(schemas)
+        self._total_tables = 0
+        total_columns, total_records = 0, 0
+        for db in schemas:
+            self._total_tables += len(db["table_names_original"])
+            total_columns += (len(db["column_names_original"]) - 1) # ignore star col
+        self._avg_tables_per_db = self._total_tables / self._total_databases
+        self._avg_columns_per_table = total_columns / self._total_tables
+        self._avg_records_per_db = total_records / self._total_databases
+    
+    def get_all_questions(self):
+        all_data_json = []
+        for filename in ["train.json", "dev.json"]:
+            all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, filename), "r", encoding="utf-8")))
+        return [item["question"] for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = []
+        for filename in ["train.json", "dev.json"]:
+            all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, filename), "r", encoding="utf-8")))
+        all_queries = []
+        for item in all_data_json:
+            if "query" in item:
+                all_queries.append(item["query"].strip())
+        all_queries = list(set(all_queries))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        return []
+
+
+class AmbiQT(Dataset):
+    
+    ROOT_PATH = "data/ambiqt"
+    
+    def get_all_questions(self):
+        all_data_json = []
+        for benchmark_type in os.listdir(os.path.join(self.ROOT_PATH, "benchmark")):
+            all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "benchmark", benchmark_type, "train.json"), "r", encoding="utf-8")))
+            all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "benchmark", benchmark_type, "validation.json"), "r", encoding="utf-8")))
+        return [item["question"] for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = []
+        for benchmark_type in os.listdir(os.path.join(self.ROOT_PATH, "benchmark")):
+            all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "benchmark", benchmark_type, "train.json"), "r", encoding="utf-8")))
+            all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "benchmark", benchmark_type, "validation.json"), "r", encoding="utf-8")))
+        all_queries = []
+        all_queries.extend([item["query1"].strip() for item in all_data_json])
+        all_queries.extend([item["query2"].strip() for item in all_data_json])
+        all_queries = list(set(all_queries))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
+        return db_paths
+    
+
 if __name__ == "__main__":
-    dataset = Advising()
+    dataset = AmbiQT()
     print(len(dataset.get_all_questions()))
     print(len(dataset.get_all_queries()))
     print(len(dataset.get_all_db_paths()))
