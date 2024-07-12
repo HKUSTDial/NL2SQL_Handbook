@@ -14,8 +14,8 @@ ALL_DATASETS = [
     # Scholar(),
     # WikiSQL(),
     # Advising(),
-    # Spider(),
-    # BIRD(),
+    Spider(),
+    BIRD(),
     # CSpider(),
     # SParC(),
     # CoSpider(),
@@ -28,7 +28,16 @@ ALL_DATASETS = [
     # KaggleDBQA(),
     # SEDE(),
     # MTTEQL(),
-    # AmbiQT()
+    # AmbiQT(),
+    # ScienceBenchmark(),
+    # BULL(),
+    # BookSQL(),
+    # PAUQ(),
+    # CHASE(),
+    # DuSQL(),
+    # ViText2SQL(),
+    # MIMICSQL(),
+    # PortugueseSpider()
 ]
 
 def report_dataset(dataset: Dataset):
@@ -42,7 +51,11 @@ def report_dataset(dataset: Dataset):
             "Average Columns per Table": dataset._avg_columns_per_table,
             "Average Records per Database": dataset._avg_records_per_db
         }
-    report_query_complexity = generate_report_query_complexity(dataset.get_all_queries())
+    if isinstance(dataset, WikiSQL):
+        _queries = [query.split("WHERE")[0].strip() for query in dataset.get_all_queries()]
+        report_query_complexity = generate_report_query_complexity(_queries)
+    else:
+        report_query_complexity = generate_report_query_complexity(dataset.get_all_queries())
     num_questions = len(dataset.get_all_questions())
     num_quries = len(dataset.get_all_queries())
     dataset_report = {

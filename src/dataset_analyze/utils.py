@@ -19,7 +19,6 @@ def generate_report_database_complexity(db_paths: list, is_wikisql=False):
         tables = cursor.fetchall()
         num_tables = len(tables)
         total_tables += num_tables
-    
         for table in tables:
             table_name = table[0]
             
@@ -63,6 +62,7 @@ def generate_report_query_complexity(queries: list[str]):
         try:
             sql_parser = SQLParser(query)
         except Exception as e:
+            print(query)
             print(e)
             continue
         tables_per_query.append(sql_parser.count_table)

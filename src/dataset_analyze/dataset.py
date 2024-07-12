@@ -288,6 +288,9 @@ class WikiSQL(Dataset):
     
     ROOT_PATH = "data/wikisql"
     
+    agg_ops = ['', 'MAX', 'MIN', 'COUNT', 'SUM', 'AVG']
+    cond_ops = ['=', '>', '<', 'OP']
+    
     def get_all_questions(self):
         all_data_json = []
         for data_file in ["train.jsonl", "dev.jsonl", "test.jsonl"]:
@@ -297,19 +300,88 @@ class WikiSQL(Dataset):
         return [item["question"] for item in all_data_json]
     
     def get_all_queries(self):
-        all_data_json = []
-        for data_file in ["train.jsonl", "dev.jsonl", "test.jsonl"]:
-            with open(os.path.join(self.ROOT_PATH, data_file), "r", encoding="utf-8") as f:
-                lines = f.readlines()
-                all_data_json.extend([json.loads(line) for line in lines])
         all_queries = []
-        # Note: For WikiSQL, we only need to consider whether it contains agg op
-        for item in all_data_json:
-            if item["sql"]["agg"] == 0:
-                # no agg:
-                all_queries.append("SELECT dummy_colum FROM dummy_table;")
-            else:
-                all_queries.append("SELECT max(dummy_colum) FROM dummy_table;")
+        
+        tables = dict()
+        with open(os.path.join(self.ROOT_PATH, "train.tables.jsonl"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                item = json.loads(line)
+                tables[item["id"]] = item
+        with open(os.path.join(self.ROOT_PATH, "train.jsonl"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                item = json.loads(line)
+                sel_col_name = tables[item["table_id"]]["header"][item["sql"]["sel"]]
+                agg_name = self.agg_ops[item["sql"]["agg"]]
+                table_name = tables[item["table_id"]].get("name", item["table_id"])
+                if agg_name:
+                    rep = 'SELECT {agg}(`{sel}`) FROM `{table}`'.format(
+                        agg=agg_name,
+                        sel=sel_col_name,
+                        table=table_name
+                    )
+                else:
+                    rep = 'SELECT `{sel}` FROM `{table}`'.format(
+                        sel=sel_col_name,
+                        table=table_name
+                    )
+                if item["sql"]["conds"]:
+                    rep +=  ' WHERE ' + ' AND '.join(["`{}` {} {}".format(tables[item["table_id"]]["header"][i], self.cond_ops[o], v) for i, o, v in item["sql"]["conds"]])
+                all_queries.append(rep)
+                
+        
+        tables = dict()
+        with open(os.path.join(self.ROOT_PATH, "dev.tables.jsonl"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                item = json.loads(line)
+                tables[item["id"]] = item
+        with open(os.path.join(self.ROOT_PATH, "dev.jsonl"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                item = json.loads(line)
+                sel_col_name = tables[item["table_id"]]["header"][item["sql"]["sel"]]
+                agg_name = self.agg_ops[item["sql"]["agg"]]
+                table_name = tables[item["table_id"]].get("name", item["table_id"])
+                if agg_name:
+                    rep = 'SELECT {agg}(`{sel}`) FROM `{table}`'.format(
+                        agg=agg_name,
+                        sel=sel_col_name,
+                        table=table_name
+                    )
+                else:
+                    rep = 'SELECT `{sel}` FROM `{table}`'.format(
+                        sel=sel_col_name,
+                        table=table_name
+                    )
+                if item["sql"]["conds"]:
+                    rep +=  ' WHERE ' + ' AND '.join(["`{}` {} {}".format(tables[item["table_id"]]["header"][i], self.cond_ops[o], v) for i, o, v in item["sql"]["conds"]])
+                all_queries.append(rep)
+                
+        tables = dict()
+        with open(os.path.join(self.ROOT_PATH, "test.tables.jsonl"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                item = json.loads(line)
+                tables[item["id"]] = item
+        with open(os.path.join(self.ROOT_PATH, "test.jsonl"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                item = json.loads(line)
+                sel_col_name = tables[item["table_id"]]["header"][item["sql"]["sel"]]
+                agg_name = self.agg_ops[item["sql"]["agg"]]
+                table_name = tables[item["table_id"]].get("name", item["table_id"])
+                if agg_name:
+                    rep = 'SELECT {agg}(`{sel}`) FROM `{table}`'.format(
+                        agg=agg_name,
+                        sel=sel_col_name,
+                        table=table_name
+                    )
+                else:
+                    rep = 'SELECT `{sel}` FROM `{table}`'.format(
+                        sel=sel_col_name,
+                        table=table_name
+                    )
+                if item["sql"]["conds"]:
+                    rep +=  ' WHERE ' + ' AND '.join(["`{}` {} {}".format(tables[item["table_id"]]["header"][i], self.cond_ops[o], v) for i, o, v in item["sql"]["conds"]])
+                all_queries.append(rep)
+                
+        all_queries = list(set(all_queries))
         return all_queries
     
     def get_all_db_paths(self):
@@ -754,10 +826,353 @@ class AmbiQT(Dataset):
     def get_all_db_paths(self):
         db_paths = [os.path.join(self.ROOT_PATH, "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
         return db_paths
+
+
+class ScienceBenchmark(Dataset):
+    
+    ROOT_PATH = "data/sciencebenchmark"
+    
+    def __init__(self):
+        self._total_databases = -1
+        self._total_tables = -1
+        total_columns, total_records = 0, 0
+        self._avg_tables_per_db = self._total_tables / self._total_databases
+        self._avg_columns_per_table = total_columns / self._total_tables
+        self._avg_records_per_db = total_records / self._total_databases
+    
+    def get_all_questions(self):
+        all_data_json = []
+        for domain in os.listdir(self.ROOT_PATH):
+            all_data_json.extend(
+                json.load(open(os.path.join(self.ROOT_PATH, domain, "seed.json"), "r", encoding="utf-8"))
+            )
+            all_data_json.extend(
+                json.load(open(os.path.join(self.ROOT_PATH, domain, "dev.json"), "r", encoding="utf-8"))
+            )
+            all_data_json.extend(
+                json.load(open(os.path.join(self.ROOT_PATH, domain, "synth.json"), "r", encoding="utf-8"))
+            )
+        return [item["question"] for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = []
+        for domain in os.listdir(self.ROOT_PATH):
+            all_data_json.extend(
+                json.load(open(os.path.join(self.ROOT_PATH, domain, "seed.json"), "r", encoding="utf-8"))
+            )
+            all_data_json.extend(
+                json.load(open(os.path.join(self.ROOT_PATH, domain, "dev.json"), "r", encoding="utf-8"))
+            )
+            all_data_json.extend(
+                json.load(open(os.path.join(self.ROOT_PATH, domain, "synth.json"), "r", encoding="utf-8"))
+            )
+        all_queries = [item["query"].strip() for item in all_data_json]
+        all_queries = list(set(all_queries))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = []
+        return db_paths
+
+
+class BULL(Dataset):
+    
+    """_summary_
+
+    Note that, we only do statistics for "train" split, because the dev data is not public
+    """
+    
+    ROOT_PATH = "data/bull"
+    
+    def get_all_questions(self):
+        all_data_json = []
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "BULL-cn", "train.json"), "r", encoding="utf-8")))
+        # all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "BULL-cn", "dev_cn.json"), "r", encoding="utf-8")))
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "BULL-en", "train.json"), "r", encoding="utf-8")))
+        # all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "BULL-en", "dev_en.json"), "r", encoding="utf-8")))
+        return [item["question"] for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = []
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "BULL-cn", "train.json"), "r", encoding="utf-8")))
+        # all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "BULL-cn", "dev_cn.json"), "r", encoding="utf-8")))
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "BULL-en", "train.json"), "r", encoding="utf-8")))
+        # all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "BULL-en", "dev_en.json"), "r", encoding="utf-8")))
+        all_queries = [item["sql_query"].strip() for item in all_data_json]
+        all_queries = list(set(all_queries))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [
+            # os.path.join(self.ROOT_PATH, "database_cn", "ccks_fund", "ccks_fund.sqlite"),
+            # os.path.join(self.ROOT_PATH, "database_cn", "ccks_macro", "ccks_macro.sqlite"),
+            # os.path.join(self.ROOT_PATH, "database_cn", "ccks_stock", "ccks_stock.sqlite"),
+            os.path.join(self.ROOT_PATH, "database_en", "ccks_fund", "ccks_fund.sqlite"),
+            os.path.join(self.ROOT_PATH, "database_en", "ccks_macro", "ccks_macro.sqlite"),
+            os.path.join(self.ROOT_PATH, "database_en", "ccks_stock", "ccks_stock.sqlite")
+        ]
+        return db_paths
     
 
+class BookSQL(Dataset):
+    
+    ROOT_PATH = "data/booksql"
+    
+    def get_all_questions(self):
+        all_data_json = []
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "train.json"), "r", encoding="utf-8")))
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "BookSQL_val.json"), "r", encoding="utf-8")))
+        return [item["Query"] for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = []
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "train.json"), "r", encoding="utf-8")))
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "BookSQL_val.json"), "r", encoding="utf-8")))
+        all_queries = [item["SQL"].strip().replace("\"\"", "'") for item in all_data_json]
+        all_queries = list(set(all_queries))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [
+            os.path.join(self.ROOT_PATH, "accounting.sqlite"),
+        ]
+        return db_paths
+    
+
+class PAUQ(Dataset):
+    
+    ROOT_PATH = "data/pauq"
+    
+    def get_all_questions(self):
+        all_data_json = []
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "pauq_dev.json"), "r", encoding="utf-8")))
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "pauq_train.json"), "r", encoding="utf-8")))
+        return [item["question"]["ru"] for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = []
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "pauq_dev.json"), "r", encoding="utf-8")))
+        all_data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "pauq_train.json"), "r", encoding="utf-8")))
+        all_queries = [item["query"]["ru"].strip() for item in all_data_json]
+        all_queries = list(set(all_queries))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "merged_database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "merged_database"))]
+        return db_paths
+
+
+class CHASE(Dataset):
+    
+    ROOT_PATH = "data/chase"
+    
+    def get_all_questions(self):
+        data_json = []
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "chase_train.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "chase_dev.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        all_questions = [item["question"] for item in data_json]
+        return all_questions
+    
+    def get_all_queries(self):
+        data_json = []
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "chase_train.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        for item in json.load(open(os.path.join(self.ROOT_PATH, "chase_dev.json"), "r", encoding="utf-8")):
+            interaction = item["interaction"]
+            for turn in interaction:
+                data_json.append({
+                    "question": turn["utterance"],
+                    "query": turn["query"]
+                })
+        all_queries = list(set([item["query"].strip() for item in data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "database", db_file) for db_file in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
+        return db_paths
+
+
+class DuSQL(Dataset):
+    
+    ROOT_PATH = "data/dusql"
+    
+    def __init__(self):
+        schemas = json.load(open(os.path.join(self.ROOT_PATH, "db_schema.json"), "r", encoding="utf-8"))
+        self._total_databases = len(schemas)
+        self._total_tables = 0
+        total_columns, total_records = 0, 0
+        for db in schemas:
+            self._total_tables += len(db["table_names"])
+            total_columns += (len(db["column_names"]) - 1) # ignore star col
+        self._avg_tables_per_db = self._total_tables / self._total_databases
+        self._avg_columns_per_table = total_columns / self._total_tables
+        
+        db_content = json.load(open(os.path.join(self.ROOT_PATH, "db_content.json"), "r", encoding="utf-8"))
+        
+        for db in db_content:
+            for k, v in db["tables"].items():
+                total_records += len(v["cell"])
+        
+        self._avg_records_per_db = total_records / self._total_databases
+    
+    def get_all_questions(self):
+        all_data_json = []
+        all_data_json.extend(
+            json.load(open(os.path.join(self.ROOT_PATH, "train.json"), "r", encoding="utf-8"))
+        )
+        all_data_json.extend(
+            json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8"))
+        )
+        return [item["question"] for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = []
+        all_data_json.extend(
+            json.load(open(os.path.join(self.ROOT_PATH, "train.json"), "r", encoding="utf-8"))
+        )
+        all_data_json.extend(
+            json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8"))
+        )
+        all_queries = [item["query"].strip() for item in all_data_json]
+        all_queries = list(set(all_queries))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = []
+        return db_paths
+
+
+class ViText2SQL(Dataset):
+    
+    ROOT_PATH = "data/vitext2sql"
+    
+    def get_all_questions(self):
+        data_json = []
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "word-level", "train.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "word-level", "dev.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "word-level", "test.json"), "r", encoding="utf-8")))
+        all_questions = [item["question"] for item in data_json]
+        return all_questions
+    
+    def get_all_queries(self):
+        data_json = []
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "word-level", "train.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "word-level", "dev.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "word-level", "test.json"), "r", encoding="utf-8")))
+        all_queries = list(set([item["query"].strip() for item in data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join("data/spider", "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join("data/spider", "database"))]
+        return db_paths
+
+
+class MIMICSQL(Dataset):
+    
+    ROOT_PATH = "data/mimicsql"
+    
+    def __init__(self):
+        self._total_databases = -1
+        self._total_tables = -1
+        total_columns, total_records = 0, 0
+        self._avg_tables_per_db = self._total_tables / self._total_databases
+        self._avg_columns_per_table = total_columns / self._total_tables
+        self._avg_records_per_db = total_records / self._total_databases
+    
+    def get_all_questions(self):
+        all_data_json = []
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_template", "train.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_template", "test.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_template", "dev.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_natural_v2", "train.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_natural_v2", "test.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_natural_v2", "dev.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        return [item["question_refine"] for item in all_data_json]
+    
+    def get_all_queries(self):
+        all_data_json = []
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_template", "train.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_template", "test.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_template", "dev.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_natural_v2", "train.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_natural_v2", "test.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        with open(os.path.join(self.ROOT_PATH, "mimicsql_natural_v2", "dev.json"), "r", encoding="utf-8") as f:
+            for line in f.readlines():
+                all_data_json.append(json.loads(line))
+        all_queries = [item["sql"].strip() for item in all_data_json]
+        all_queries = list(set(all_queries))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = []
+        return db_paths
+    
+    
+class PortugueseSpider(Dataset):
+    ROOT_PATH = "data/spider"
+    
+    def get_all_questions(self):
+        data_json = []
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "train_spider.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "train_others.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8")))
+        all_questions = [item["question"] for item in data_json]
+        return all_questions
+    
+    def get_all_queries(self):
+        data_json = []
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "train_spider.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "train_others.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8")))
+        all_queries = list(set([item["query"].strip() for item in data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
+        return db_paths
+    
+    
 if __name__ == "__main__":
-    dataset = AmbiQT()
+    dataset = PortugueseSpider()
     print(len(dataset.get_all_questions()))
     print(len(dataset.get_all_queries()))
     print(len(dataset.get_all_db_paths()))
