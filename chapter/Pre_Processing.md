@@ -29,3 +29,5 @@ The purpose of database content retrieval is to efficiently retrieve cell values
 + `Describe` CodeS introduces a coarse-to-fine cell value matching approach. It leverages indexes for a coarse-grained initial search, followed by a fine-grained matching process. First, it builds the index for all values using BM25. The index identifies candidate values relevant to NL. The Longest Common Substring algorithm is then used to calculate the matching degree between NL and the candidate values to find the most relevant cell values.
 ---
 ### Additional Information Acquisition
++ `Paper` []()
++ `Describe` 
