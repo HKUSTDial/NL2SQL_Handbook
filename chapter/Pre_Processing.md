@@ -21,7 +21,7 @@ The purpose of database content retrieval is to efficiently retrieve cell values
 + `Describe` TABERT utilizes a method called database content snapshots to encode the relevant subset of database content corresponding to the NL query. It uses an attention mechanism to manage information between cell value representations across different rows.
 + `Paper` [Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation](https://arxiv.org/pdf/1905.08205)
 + `Describe` IRNet employs the knowledge graph ConceptNet to recognize cell value links and search cell value candidates in the knowledge graph. When a result exactly or partially matches a cell value, the column is assigned a type of value exact match or partial match, respectively.
-+ `Paper` RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers(https://arxiv.org/pdf/1911.04942)
++ `Paper` [RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers](https://arxiv.org/pdf/1911.04942)
 + `Describe` RAT-SQL further improves structural reasoning capabilities by modeling the relationship between cell values and the NL query. Specifically, it identifies the column-value relationship, meaning that the value in the question is part of the candidate cell value of the column. 
 + `Paper` [CHESS: Contextual Harnessing for Efficient SQL Synthesis](https://arxiv.org/pdf/2405.16755)
 + `Describe` CHESS utilizes a Locality-sensitive Hashing algorithm for approximate nearest neighbor searches. It indexes unique cell values to quickly identify the top similar values related to the NL query. This approach significantly speeds up the process of computing the edit distance and semantic embedding between the NL query and cell values.
