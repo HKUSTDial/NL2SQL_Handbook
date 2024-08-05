@@ -1,13 +1,32 @@
 ## NL2SQL Translation Methods
 
 ### Encoding Strategy
+#### 🎓Basic concept:
+#### 📚Representative papers：
 
 ### Decoding Strategy
+#### 🎓Basic concept:
+#### 📚Representative papers：
 
 ### Task-specific Prompt Strategy
+#### 🎓Basic concept:
+In the era of LLMs, prompt engineering can harness the capabilities of LLMs and has been widely adopted in natural language processing, with various frameworks developed for specific tasks~\cite{qiao2022reasoning, liu2023pre, liu2023prompting}. In the \nlsql field, task-specific prompt strategy refers to the tailored prompt engineering techniques used in the \nlsql translation process. These strategies instruct the LLMs to optimize the \sql query generation process according to task-specific rules, improving the accuracy of translating complex semantic \nlq query into the corresponding \sql query.
+#### 📚Representative papers：
++ `Paper` [CHESS: Contextual Harnessing for Efficient SQL Synthesis](https://arxiv.org/pdf/2405.16755)
++ `Describe` CHESS transforms \nlq into \sql statements using a streamlined pipeline that relies on LLMs and CoT. This process comprises entity and context retrieval, schema selection, \sql generation, and revision.
++ `Paper` [DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models](https://arxiv.org/pdf/2402.01117)
++ `Describe` DTS-SQL splits the work task into two subtasks, schema linking, and generation, to close the performance gap between open-source LLMs and closed-source LLMs.
++ `Paper` [Towards Generalizable and Robust Text-to-SQL Parsing](https://arxiv.org/pdf/2210.12674)
++ `Describe` The TKK framework divides the initial \nlsql parsing tasks into various small individual subtasks, with each corresponding to the mapping of the \nlq query to one or more clauses of the \sql query.  
++ `Paper` [MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL](https://arxiv.org/abs/2312.11242) 
++ `Describe` MAC-SQL incorporates a Decomposer agent designed to break down the user's original problem into several subproblems. This decomposition process aims to lessen the complexity of the origin question, enabling the generation of simpler \sql queries to solve each individual subproblem.
++ `Paper` [DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction](https://arxiv.org/pdf/2304.11015v3.pdf)
++ `Describe` DIN-SQL employs a sophisticated categorization module for decomposition. It classify queries into distinct complexity groups: {\tt EASY}, {\tt NON-NESTED}, and {\tt NESTED}, with the reference of \nlq and database schema.This module is fundamental for the subsequent decomposition process, which meticulously dissects complex queries into simpler sub-problems. By strategically identifying and separating schema linking, join conditions, and nested structures, the module facilitates a structured generation of \sql queries and amplifies the accuracy of translating complex the \nlq query into executable \sql.
 
 ### Intermediate Representation for NL2SQL Translation
+#### 🎓Basic concept:
 As mentioned before, the NL2SQL task is challenging due to the complexity and ambiguity of NL queries, as well as the formal and structured nature of SQL. Thus, researchers try to simplify this process by designing a *grammar-free* intermediate representation compared to SQL as the bridge between the ''free-form'' NL query and the ''constrained and formal'' SQL query.Roughly speaking, an intermediate representation (IR) is a structured yet flexible grammar that captures the essential components and relationships of an NL query without the strict syntax rules of SQL. 
+#### 📚Representative papers：
 + `Paper` [Schema-free SQL](https://dl.acm.org/doi/pdf/10.1145/2588555.2588571)
 + `Describe` In the research of Schema-free SQL, the original question can be transformed into an intermediate representation even in the absence of user knowledge about schema information.
 + `Paper` [SyntaxSQLNet: Syntax Tree Networks for Complex and Cross-DomainText-to-SQL Task](https://arxiv.org/pdf/1810.05237)
