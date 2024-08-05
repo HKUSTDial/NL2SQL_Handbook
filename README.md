@@ -1,6 +1,6 @@
 # <h1 align="center">NL2SQL Handbook</h1>
 
-###  <h1 align="center"Where are we, and where are we going?</h1>
+### <h3 align="center">Where are we, and where are we going?</h3>
 
 ## 🧭Introduction 
 Translating users' natural language queries (NL) into sql queries can significantly reduce barriers to accessing relational databases and support various commercial applications. The performance of NL2SQL has been greatly improved with the emergence of language models (LMs). In this context, it is crucial to assess our current position, determine the NL2SQL solutions that should be adopted for specific scenarios by practitioners, and identify the research topics that researchers should explore next.
@@ -18,7 +18,7 @@ Translating users' natural language queries (NL) into sql queries can significan
 
 + Error Analysis: analyzing NL2SQL errors to find the root cause and guiding NL2SQL models to evolve.
 
-## 🤔Where are we
+## 🤔Where Are We
 We categorize the challenges of NL2SQL into five levels and defined each level's specific challenges. The first three levels focus on challenges that have been addressed or are still being tackled, affirming the progressive development of NL2SQL. The fourth level symbolizes the challenges we aim to resolve in the stage of LLMs. Finally, the fifth level represents our aspirations for the ultimate NL2SQL system.
 
 We describe the evolution of NL2SQL solutions from the perspective of language models, categorizing it into four stages.
@@ -40,7 +40,7 @@ language queries into SQL queries.
 <img width="600" src="./assets/Model_Module_Overview.png"/>
 </p>
 
-## 🗺️Where are we going
+## 🗺️Where Are We Going
 
 * 🎯Sovle Open NL2SQL Problem
 * 🎯Develop Cost-effective NL2SQL Methods
@@ -59,4 +59,7 @@ You can get more information from our subsection, we introduce representative pa
 * [Benchamrk](chapter/Benchmark.md)
 * [Evaluation](chapter/Evaluation.md)
 * [Error Analysis](chapter/Error_Analysis.md)
+
+## 💾Material for Novice
+Practical information collected for Novice
 
