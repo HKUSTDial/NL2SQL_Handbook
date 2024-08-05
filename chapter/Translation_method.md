@@ -10,18 +10,18 @@
 
 ### Task-specific Prompt Strategy
 #### 🎓Basic concept:
-In the era of LLMs, prompt engineering can harness the capabilities of LLMs and has been widely adopted in natural language processing, with various frameworks developed for specific tasks~\cite{qiao2022reasoning, liu2023pre, liu2023prompting}. In the \nlsql field, task-specific prompt strategy refers to the tailored prompt engineering techniques used in the \nlsql translation process. These strategies instruct the LLMs to optimize the \sql query generation process according to task-specific rules, improving the accuracy of translating complex semantic \nlq query into the corresponding \sql query.
+In the era of LLMs, prompt engineering can harness the capabilities of LLMs and has been widely adopted in natural language processing, with various frameworks developed for specific tasks. In the NL2SQL field, task-specific prompt strategy refers to the tailored prompt engineering techniques used in the NL2SQL translation process. These strategies instruct the LLMs to optimize the SQL query generation process according to task-specific rules, improving the accuracy of translating complex semantic NL query into the corresponding SQL query.
 #### 📚Representative papers：
 + `Paper` [CHESS: Contextual Harnessing for Efficient SQL Synthesis](https://arxiv.org/pdf/2405.16755)
-+ `Describe` CHESS transforms \nlq into \sql statements using a streamlined pipeline that relies on LLMs and CoT. This process comprises entity and context retrieval, schema selection, \sql generation, and revision.
++ `Describe` CHESS transforms NL into SQL statements using a streamlined pipeline that relies on LLMs and CoT. This process comprises entity and context retrieval, schema selection, SQL generation, and revision.
 + `Paper` [DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models](https://arxiv.org/pdf/2402.01117)
 + `Describe` DTS-SQL splits the work task into two subtasks, schema linking, and generation, to close the performance gap between open-source LLMs and closed-source LLMs.
 + `Paper` [Towards Generalizable and Robust Text-to-SQL Parsing](https://arxiv.org/pdf/2210.12674)
-+ `Describe` The TKK framework divides the initial \nlsql parsing tasks into various small individual subtasks, with each corresponding to the mapping of the \nlq query to one or more clauses of the \sql query.  
++ `Describe` The TKK framework divides the initial NL2SQL parsing tasks into various small individual subtasks, with each corresponding to the mapping of the NL query to one or more clauses of the SQL query.  
 + `Paper` [MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL](https://arxiv.org/abs/2312.11242) 
-+ `Describe` MAC-SQL incorporates a Decomposer agent designed to break down the user's original problem into several subproblems. This decomposition process aims to lessen the complexity of the origin question, enabling the generation of simpler \sql queries to solve each individual subproblem.
++ `Describe` MAC-SQL incorporates a Decomposer agent designed to break down the user's original problem into several subproblems. This decomposition process aims to lessen the complexity of the origin question, enabling the generation of simpler SQL queries to solve each individual subproblem.
 + `Paper` [DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction](https://arxiv.org/pdf/2304.11015v3.pdf)
-+ `Describe` DIN-SQL employs a sophisticated categorization module for decomposition. It classify queries into distinct complexity groups: {\tt EASY}, {\tt NON-NESTED}, and {\tt NESTED}, with the reference of \nlq and database schema.This module is fundamental for the subsequent decomposition process, which meticulously dissects complex queries into simpler sub-problems. By strategically identifying and separating schema linking, join conditions, and nested structures, the module facilitates a structured generation of \sql queries and amplifies the accuracy of translating complex the \nlq query into executable \sql.
++ `Describe` DIN-SQL employs a sophisticated categorization module for decomposition. It classify queries into distinct complexity groups: EASY, NON-NESTED, and NESTED, with the reference of NL and database schema.This module is fundamental for the subsequent decomposition process, which meticulously dissects complex queries into simpler sub-problems. By strategically identifying and separating schema linking, join conditions, and nested structures, the module facilitates a structured generation of SQL queries and amplifies the accuracy of translating complex the NL query into executable SQL.
 
 ### Intermediate Representation for NL2SQL Translation
 #### 🎓Basic concept:
