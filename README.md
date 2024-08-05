@@ -1,6 +1,6 @@
 # <h1 align="center">NL2SQL Handbook</h1>
 
-### <center/>Where are we, and where are we going?<center/>
+###  <h1 align="center"Where are we, and where are we going?</h1>
 
 ## 🧭Introduction 
 Translating users' natural language queries (NL) into sql queries can significantly reduce barriers to accessing relational databases and support various commercial applications. The performance of NL2SQL has been greatly improved with the emergence of language models (LMs). In this context, it is crucial to assess our current position, determine the NL2SQL solutions that should be adopted for specific scenarios by practitioners, and identify the research topics that researchers should explore next.
