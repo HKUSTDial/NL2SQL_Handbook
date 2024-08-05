@@ -1,4 +1,4 @@
-## Pre-Processing
+## Post-Processing
 Post-processing is a crucial step to refine the generated SQL queries, ensuring they meet user expectations more accurately. This involves enhancing the initial SQL output using various strategies.
 ### SQL Correction Strategies：
 #### 🎓Basic concept:
