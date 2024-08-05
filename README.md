@@ -50,6 +50,12 @@ language queries into SQL queries.
 
 ## 📰News for NL2SQL
 💥Latest paper list:
+* [CodeS: Towards Building Open-source Language Models for Text-to-SQL](https://arxiv.org/abs/2402.16347) 
+<img src="https://img.shields.io/badge/SIGMOD'2024-yellow" alt="SIGMOD 2024 Badge" width="70" height="17.5">
+
+
+
+
 
 ## 📖Catalog for Survey
 You can get more information from our subsection, we introduce representative papers on related concepts:
@@ -61,5 +67,9 @@ You can get more information from our subsection, we introduce representative pa
 * [Error Analysis](chapter/Error_Analysis.md)
 
 ## 💾Material for Novice
-Practical information collected for Novice
+Practical Materialmation collected for Novice:
+
+
+
+
 
