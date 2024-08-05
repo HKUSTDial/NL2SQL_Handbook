@@ -1,4 +1,4 @@
-## Benchmarks and Training Data Synthesis
+## Benchmarks
 
 | Benchmark        | Year | Language        | Domain Type   | Turn Type | Collection               | Paper Link                                                   | Download Link                                                |
 | ---------------- | ---- | --------------- | ------------- | --------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
