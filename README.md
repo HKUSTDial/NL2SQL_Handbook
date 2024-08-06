@@ -58,7 +58,7 @@ Models for Zero-Shot NL2SQL Generation.
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2402.17144) <img src="https://img.shields.io/badge/ICDE'2024-green">
 * DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2304.11015) <img src="https://img.shields.io/badge/NeurIPS'2023-yellow">
-* ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought
+* ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought.
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2310.17342) <img src="https://img.shields.io/badge/EMNLP'2023-orange">
 * RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2302.05965) <img src="https://img.shields.io/badge/AAAI'2023-cyan">
