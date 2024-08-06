@@ -18,7 +18,7 @@ In the LLMs era, schema linking has become increasingly crucial due to the input
 ---
 ### DB content Retrival
 #### 🎓Basic concept:
-The purpose of database content retrieval is to efficiently retrieve cell values through textual searching algorithms and database indexing. Unlike schema linking, which focuses on finding relevant tables and column based on the NL query, database content retrieval emphasizes efficiently retrieving cell values. Given the large scale of databases, retrieving cell values from them is resource-intensive and poses potential risks of exposing sensitive data. Therefore, it is crucial to implement appropriate strategies for the scenario requirement. 
+The purpose of database content retrieval is to efficiently retrieve cell values through textual searching algorithms and database indexing. Database content retrieval emphasizes efficiently retrieving cell values. Given the large scale of databases, retrieving cell values from them is resource-intensive and poses potential risks of exposing sensitive data. Therefore, it is crucial to implement appropriate strategies for the scenario requirement. 
 #### 📚Representative papers：
 + `Paper` [Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing](https://arxiv.org/pdf/2012.12627) 
 + `Describe` BRIDGE designs an anchor text matching to extract cell values mentioned in the NL automatically. It uses a heuristic method to calculate the maximum sequence match between the problem and the cell values to determine the matching boundary. When the cell values are substrings of words in the query, the heuristic can exclude those string matches. The matching threshold is then adjusted by making coarse accuracy measurements.
@@ -29,7 +29,7 @@ The purpose of database content retrieval is to efficiently retrieve cell values
 + `Paper` [Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation](https://arxiv.org/pdf/1905.08205)
 + `Describe` IRNet employs the knowledge graph ConceptNet to recognize cell value links and search cell value candidates in the knowledge graph. When a result exactly or partially matches a cell value, the column is assigned a type of value exact match or partial match, respectively.
 + `Paper` [RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers](https://arxiv.org/pdf/1911.04942)
-+ `Describe` RAT-SQL further improves structural reasoning capabilities by modeling the relationship between cell values and the NL query. Specifically, it identifies the column-value relationship, meaning that the value in the question is part of the candidate cell value of the column. 
++ `Describe` RAT-SQL improves structural reasoning capabilities by modeling the relationship between cell values and the NL query. Specifically, it identifies the column-value relationship, meaning that the value in the question is part of the candidate cell value of the column. 
 + `Paper` [CHESS: Contextual Harnessing for Efficient SQL Synthesis](https://arxiv.org/pdf/2405.16755)
 + `Describe` CHESS utilizes a Locality-sensitive Hashing algorithm for approximate nearest neighbor searches. It indexes unique cell values to quickly identify the top similar values related to the NL query. This approach significantly speeds up the process of computing the edit distance and semantic embedding between the NL query and cell values.
 + `Paper` [CodeS: Towards Building Open-source Language Models for Text-to-SQL](https://dl.acm.org/doi/abs/10.1145/3654930)
