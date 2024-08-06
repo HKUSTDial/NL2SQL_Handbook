@@ -7,8 +7,14 @@ The purpose of the schema linking is to identify the tables and columns related 
 It ensures the accurate mapping and processing of key information within the limited input, thereby improving the performance of the NL2SQL task.
 In the LLMs era, schema linking has become increasingly crucial due to the input length limit of LLMs. 
 #### 📚Representative papers：
++ `Paper` [Data-anonymous encoding for text-to-sql generation](https://aclanthology.org/D19-1543/) 
++ `Describe` This paper formulates schema linking as a sequential tagging problem and propose a two-stage anonymization model to learn the semantic relationship between schema and NL. 
++ `Paper` [Re-examining the role of schema linking in text-to-sql](https://aclanthology.org/2020.emnlp-main.564/) 
++ `Describe` This paper  annotates the schema linking information for each instance in the training and development sets of Spider to support a data-driven and systematic study. 
 + `Paper` [RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL](https://arxiv.org/abs/2302.05965) 
 + `Describe` This paper proposes a ranking-enhanced encoding framework for schema linking. An additional cross-encoder is trained to classify tables and columns based on the input query. This framework ranks and filters them according to classification probabilities, resulting in a ranked sequence of schema items.
++ `Paper` [C3: Zero-shot Text-to-SQL with ChatGPT](https://arxiv.org/abs/2307.07306) 
++ `Describe` This paper designs different zero-shot prompts to instruct GPT-3.5 for table and column linking, employing the self-consistency method. For the table linking, the prompt guides the process in three steps: ranking tables by relevance, ensuring all relevant tables are included, and outputting in list format. For the column linking, another prompt guides the ranking of columns within candidate tables and outputting in dictionary format, prioritizing those matching question terms or foreign keys. 
 ---
 ### DB content Retrival
 #### 🎓Basic concept:
