@@ -6,8 +6,12 @@ Encoding in the NL2SQL task refers to the process of transforming NL and databas
 #### 📚Representative papers：
 + `Paper` [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer ](https://www.jmlr.org/papers/v21/20-074.html)
 + `Describe` Several works employ the T5 model to encode the input NL and database schema in order. This line of work includes T5+NatSQL+Token Preprocessing, T5+PICARD, and others.
++ `Paper` [RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL](https://ojs.aaai.org/index.php/AAAI/article/view/26535)
++ `Describe` RESDSQL uses a ranking-enhanced encoder to sort and filter schema items, thereby reducing the complexity of schema linking during encoding. This method ensures that the most relevant schema items are prioritized, improving the overall efficiency of the encoding process.
 + `Paper` [*CatSQL*: Towards Real World Natural Language to SQL Applications](https://dl.acm.org/doi/abs/10.14778/3583140.3583165)
 + `Describe` CatSQL utilizes the pre-trained GraPPa encoding network to concatenate the NL, database schema, and additional information into a single input sequence, generating hidden state sequences. This approach integrates multiple sources of information, enhancing the model’s ability to capture complex relationships.
++ `Paper` [Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation](https://arxiv.org/abs/2308.15363)
++ `Describe` Although LLM-based NL2SQL methods do not explicitly employ an input encoding strategy, most of the LLMs they rely on process input sequences through the self-attention mechanism. This mechanism can also be considered a form of the encoding process, generating the next word in a sequence based on the preceding words. Therefore, in this line of research, MAC-SQL, SuperSQL, C3-SQL, DAIL-SQL, DIN-SQL, PET-SQL, CodeS, and DTS-SQL employ the sequential encoding strategy.
 ---
 ### Decoding Strategy
 #### 🎓Basic concept:
