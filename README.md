@@ -62,10 +62,10 @@ Models for Zero-Shot NL2SQL Generation.
 * RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2302.05965) <img src="https://img.shields.io/badge/AAAI'2023-cyan">
 
-## 📊 NL2SQL Bechmark
+## 📊 NL2SQL Benchmark
 We create a timeline of the benchmark's development and marked relevant milestones. You can get more detials from this chapter: [📊 Benchmark](chapter/Benchmark.md)
 <p align="center">
-<img width="800" src="./assets/Dataset_timeline.png"/>
+<img width="800" src="./assets/dataset_timeline.png"/>
 </p>
 
 ## 🎯 Where Are We Going
@@ -91,13 +91,13 @@ You can get more information from our subsection, we introduce representative pa
 * We collect NL2SQL benchmarks features and download links for you. You can get more detials from this chapter: [Benchmark](chapter/Benchmark.md)
 * The analysis code for benchmarks is available in the `src/dataset_analysis` directory. Benchmark analysis reports can be found in the `report/` directory.
 
-### 🛠️ How to build a LLM-based NL2SQL Model:
+### 🛠️ How to build a LLM-based NL2SQL model:
 
 * Litgpt [Repository Link](https://github.com/Lightning-AI/litgpt)
 
     This repository offers access to over 20 high-performance large language models (LLMs) with comprehensive guides for pretraining, fine-tuning, and deploying at scale. It is designed to be beginner-friendly with from scratch implementations and no complex abstractions.
 
-* Fine-tuning and  In-Conetxt learning for BIRD-SQL Benchmark [Repository Link](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird#fine-tuning-ft)
+* Fine-tuning and  In-Conetxt learning for BIRD-SQL benchmark [Repository Link](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird#fine-tuning-ft)
     
     A tutorial for both Fine-tuning and In-Context Learning provided by the BIRD-SQL benchmark. 
 
