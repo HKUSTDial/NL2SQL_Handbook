@@ -65,7 +65,7 @@ Models for Zero-Shot NL2SQL Generation.
 ## 📊 NL2SQL Bechmark
 We create a timeline of the benchmark's development and marked relevant milestones. You can get more detials from this chapter: [📊 Benchmark](chapter/Benchmark.md)
 <p align="center">
-<img width="800" src="./assets/Dataset_Timeline.png"/>
+<img width="800" src="./assets/Dataset_timeline.png"/>
 </p>
 
 ## 🎯 Where Are We Going
