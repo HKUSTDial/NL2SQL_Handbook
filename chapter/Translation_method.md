@@ -3,11 +3,11 @@
 ### Encoding Strategy
 #### 🎓Basic concept:
 #### 📚Representative papers：
-
+---
 ### Decoding Strategy
 #### 🎓Basic concept:
 #### 📚Representative papers：
-
+---
 ### Task-specific Prompt Strategy
 #### 🎓Basic concept:
 In the era of LLMs, prompt engineering can harness the capabilities of LLMs and has been widely adopted in natural language processing, with various frameworks developed for specific tasks. In the NL2SQL field, task-specific prompt strategy refers to the tailored prompt engineering techniques used in the NL2SQL translation process. These strategies instruct the LLMs to optimize the SQL query generation process according to task-specific rules, improving the accuracy of translating complex semantic NL query into the corresponding SQL query.
@@ -22,7 +22,7 @@ In the era of LLMs, prompt engineering can harness the capabilities of LLMs and 
 + `Describe` MAC-SQL incorporates a Decomposer agent designed to break down the user's original problem into several subproblems. This decomposition process aims to lessen the complexity of the origin question, enabling the generation of simpler SQL queries to solve each individual subproblem.
 + `Paper` [DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction](https://arxiv.org/pdf/2304.11015v3.pdf)
 + `Describe` DIN-SQL employs a sophisticated categorization module for decomposition. It classify queries into distinct complexity groups: EASY, NON-NESTED, and NESTED, with the reference of NL and database schema.This module is fundamental for the subsequent decomposition process, which meticulously dissects complex queries into simpler sub-problems. By strategically identifying and separating schema linking, join conditions, and nested structures, the module facilitates a structured generation of SQL queries and amplifies the accuracy of translating complex the NL query into executable SQL.
-
+---
 ### Intermediate Representation for NL2SQL Translation
 #### 🎓Basic concept:
 As mentioned before, the NL2SQL task is challenging due to the complexity and ambiguity of NL queries, as well as the formal and structured nature of SQL. Thus, researchers try to simplify this process by designing a *grammar-free* intermediate representation compared to SQL as the bridge between the ''free-form'' NL query and the ''constrained and formal'' SQL query.Roughly speaking, an intermediate representation (IR) is a structured yet flexible grammar that captures the essential components and relationships of an NL query without the strict syntax rules of SQL. 
@@ -51,3 +51,4 @@ As mentioned before, the NL2SQL task is challenging due to the complexity and am
 + `Describe` TA-SQL combines pandas code and symbolic representation to generate an abstract sketch of SQL and uses this sketch to align with schema information in subsequent modules to generate complete SQL.
 + `Paper` [RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL](https://arxiv.org/pdf/2302.05965v3.pdf)
 + `Describe` RESDSQL introduces a rank-enhanced encoding and skeleton-aware decoding framework, which separates schema linking from skeleton parsing.  During the decoding generation phase, its decoder initially produces the SQL skeleton and then generates the actual SQL query. This approach implicitly constrains the SQL parsing and governs the quality of generation. When combined with NatSQL, RESDSQL demonstrates the ability to further enhance the quality of SQL query generation.
+---
