@@ -19,7 +19,7 @@ Translating users' natural language queries (NL) into sql queries can significan
 
 + Error Analysis: analyzing NL2SQL errors to find the root cause and guiding NL2SQL models to evolve.
 
-## 🤔 Where Are We
+## 🤔 Where Are We?
 We categorize the challenges of NL2SQL into five levels and defined each level's specific challenges. The first three levels focus on challenges that have been addressed or are still being tackled, affirming the progressive development of NL2SQL. The fourth level symbolizes the challenges we aim to resolve in the stage of LLMs. Finally, the fifth level represents our aspirations for the ultimate NL2SQL system. 
 
 We describe the evolution of NL2SQL solutions from the perspective of language models, categorizing it into four stages.
