@@ -32,14 +32,15 @@ For each stage of NL2SQL, we analyze the changes in target users and the extent 
 ## 🧩 Module-based NL2SQL Method
 We summarize the key modules of NL2SQL solutions
 utilizing language model. 
-+ **Pre-processing** serves as a enhancement to model’s inputs in the NL2SQL parsing process. You can get more detials from this chapter: [Pre_Processing](chapter/Pre_Processing.md)
-+ **NL2SQL translation methods** constitute the core of the NL2SQL solution, responsible for converting input natural language queries into SQL queries. You can get more detials from this chapter: [NL2SQL translation methods](chapter/Translation_method.md)
++ **Pre-processing** serves as a enhancement to model’s inputs in the NL2SQL parsing process. You can get more detials from this chapter: [Pre-Processing](chapter/Pre_Processing.md)
++ **NL2SQL translation methods** constitute the core of the NL2SQL solution, responsible for converting input natural language queries into SQL queries. You can get more detials from this chapter: [NL2SQL Translation Methods](chapter/Translation_method.md)
 + **Post-processing** is a crucial step to refine the generated SQL queries, ensuring they meet user expectations more accurately. You can get more detials from this chapter: [Post-Processing](chapter/Post_Processing.md)
 <p align="center">
 <img width="600" src="./assets/Model_Module_Overview.png"/>
 </p>
 
 ## 📰NL2SQL Papaer List
+
 * CodeS: Towards Building Open-source Language Models for Text-to-SQL. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2402.16347) <img src="https://img.shields.io/badge/SIGMOD'2024-red">
 * FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis. 
@@ -79,7 +80,7 @@ We create a timeline of the benchmark's development and marked relevant mileston
 ## 📖 Catalog for Our Survey
 You can get more information from our subsection, we introduce representative papers on related concepts:
 * [Pre-Processing](chapter/Pre_Processing.md)
-* [NL2SQL translation methods](chapter/Translation_method.md)
+* [NL2SQL Translation Methods](chapter/Translation_method.md)
 * [Post-Processing](chapter/Post_Processing.md)
 * [Benchamrk](chapter/Benchmark.md)
 * [Evaluation](chapter/Evaluation.md)
