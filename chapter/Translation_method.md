@@ -4,6 +4,10 @@
 #### 🎓Basic concept:
 Encoding in the NL2SQL task refers to the process of transforming NL and database schema into a structured format that can be effectively utilized by a language model. This transformation is crucial as it converts unstructured and semi-structured data into a form that can be processed for generating SQL queries. The encoding process involves capturing the semantic meaning of the NL input and the structural information of the database schema, enabling the model to understand and map the user’s intent to the corresponding SQL query. There are three primary encoding strategies in NL2SQL models, each with its unique approach to transforming NL and database schemas: 1) sequential encoding, 2) graph-based encoding, and 3) separate encoding.
 #### 📚Representative papers：
++ `Paper` [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer ](https://www.jmlr.org/papers/v21/20-074.html)
++ `Describe` Several works employ the T5 model to encode the input NL and database schema in order. This line of work includes T5+NatSQL+Token Preprocessing, T5+PICARD, and others.
++ `Paper` [*CatSQL*: Towards Real World Natural Language to SQL Applications](https://dl.acm.org/doi/abs/10.14778/3583140.3583165)
++ `Describe` CatSQL utilizes the pre-trained GraPPa encoding network to concatenate the NL, database schema, and additional information into a single input sequence, generating hidden state sequences. This approach integrates multiple sources of information, enhancing the model’s ability to capture complex relationships.
 ---
 ### Decoding Strategy
 #### 🎓Basic concept:
