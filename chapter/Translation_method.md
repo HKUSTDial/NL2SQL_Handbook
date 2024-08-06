@@ -21,6 +21,10 @@ Decoding plays a crucial role in NL2SQL translation, as it is responsible for co
 + `Describe` RAT-SQL combines relation-aware graph structure encoding and generation techniques. During the decoding process, RAT-SQL uses beam search to generate multiple candidate SQL queries, which are then reranked, and the optimal query is selected based on graph structure information.
 + `Paper` [Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions](https://arxiv.org/abs/1909.00786)
 + `Describe` EditSQL employs a context encoding strategy, incorporating dialogue history information into the model. During the decoding process, it uses the beam search-based decoding strategy to generate candidate SQL queries and utilizes dialogue context information to select and optimize the queries.
++ `Paper` [PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models](https://arxiv.org/abs/2109.05093)
++ `Describe` The constraint-aware incremental decoding strategy, introduced by PICARD (Parsing Incrementally for Constrained Auto-Regressive Decoding), is specifically designed for NL2SQL tasks. This strategy aims to ensure the generation of syntactically correct SQL queries by incorporating constraints during the decoding process.
++ `Paper` [Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing](https://arxiv.org/abs/2012.12627)
++ `Describe` BRIDGE introduces some simple heuristic rules to prune the search space of the sequence decoder, proposing Schema-Consistency Guided Decoding to ensure that the generated SQL queries are consistent with the database schema. This strategy continuously checks whether the generated SQL queries match the database schema during the decoding process and adjusts the decoding path based on the matching results.
 ---
 ### Task-specific Prompt Strategy
 #### 🎓Basic concept:
