@@ -1,4 +1,4 @@
- <h1 align="center">NL2SQL Handboo</h1>
+ <h1 align="center">NL2SQL Handbook</h1>
  
  From this repository, you can view the latest advancements in NL2SQL. If you are a novice, don't worry—we have prepared a practical guide for you, covering a wide range of foundational materials [here](#💾practical-guide-for-novice).
 
@@ -84,22 +84,25 @@ You can get more information from our subsection, we introduce representative pa
 
 ### 📊 How to get data:
 We collect NL2SQL benchmark for you. You can get more detials from this chapter: [📊 Benchmark](chapter/Benchmark.md)
-### 🔧 How to train a NL2SQL Model:
-Fine-tuning(FT) and In-Conetxt learning(ICL) tutorial provided by BIRD-SQL benchmark.  [🔧 FT and ICL for BIRD-SQL](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird#fine-tuning-ft)
+### 🔧 How to build a NL2SQL Model:
+
+🔧 FT and ICL for BIRD-SQL [Link](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird#fine-tuning-ft)
+
+Fine-tuning(FT) and In-Conetxt learning(ICL) tutorial provided by BIRD-SQL benchmark. 
 
 ### 🔎How to evalation your model:
 
 We collect NL2SQL evalation metrics for you. You can get more detials from this chapter: [🔎 Evaluation](chapter/Benchmark.md)
 
-[🔎 NLSQL360_EX,EM,VES,QVT](https://github.com/HKUSTDial/NL2SQL360)
+🔎 NLSQL360 [Link](https://github.com/HKUSTDial/NL2SQL360) 
 
-NL2SQL360 is a testbed for fine-grained evaluation of NL2SQL solutions. Our testbed integrates existing NL2SQL benchmarks, a repository of NL2SQL models, and various evaluation metrics, which aims to provide an intuitive and user-friendly platform to enable both standard and customized performance evaluations. 
+NL2SQL360 is a testbed for fine-grained evaluation of NL2SQL solutions. Our testbed integrates existing NL2SQL benchmarks, a repository of NL2SQL models, and various evaluation metrics, which aims to provide an intuitive and user-friendly platform to enable both standard and customized performance evaluations. <img src="https://img.shields.io/badge/EX-red"> <img src="https://img.shields.io/badge/EM-green"> <img src="https://img.shields.io/badge/VES-blue"> <img src="https://img.shields.io/badge/QVT-orange">
 
-[🔎 Sider_EX,EM:](https://github.com/taoyds/test-suite-sql-eval)
+🔎 Test-suite-sql-eval [Link](https://github.com/taoyds/test-suite-sql-eval)
 
-This repo contains test suite evaluation metric for 11 text-to-SQL tasks. It is now the official metric of [Spider](https://yale-lily.github.io/spider), [SParC](https://yale-lily.github.io/sparc), and [CoSQL](https://yale-lily.github.io/cosql), and is also now available for Academic, ATIS, Advising, Geography, IMDB, Restaurants, Scholar, and Yelp (building on the amazing work by [Catherine and Jonathan](https://github.com/jkkummerfeld/text2sql-data)). 
+This repo contains test suite evaluation metric for 11 text-to-SQL tasks. It is now the official metric of [Spider](https://yale-lily.github.io/spider), [SParC](https://yale-lily.github.io/sparc), and [CoSQL](https://yale-lily.github.io/cosql), and is also now available for Academic, ATIS, Advising, Geography, IMDB, Restaurants, Scholar, and Yelp (building on the amazing work by [Catherine and Jonathan](https://github.com/jkkummerfeld/text2sql-data)).  <img src="https://img.shields.io/badge/EX-red"> <img src="https://img.shields.io/badge/EM-green">
 
-[🔎 BIRD-SQ_EX,VES:](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird#evaluation)
+🔎 BIRD-SQL-Official [Link](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird#evaluation)
 
 It is now the official tool of [BIRD](https://bird-bench.github.io/). It is the first tool to propose VES metric and give official test.
-
+<img src="https://img.shields.io/badge/EX-red"> <img src="https://img.shields.io/badge/VES-blue">
