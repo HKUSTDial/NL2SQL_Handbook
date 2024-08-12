@@ -1,6 +1,6 @@
  <h1 align="center">NL2SQL Handbook</h1>
  
- From this repository, you can view the latest advancements in NL2SQL. If you are a novice, don't worry—we have prepared a practical guide for you, covering a wide range of foundational materials [here](#💾practical-guide-for-novice).
+From this repository, you can view the latest advancements in NL2SQL. This handbook corresponds to our survey **"A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?"** which you can access via [this link](https://arxiv.org/abs/2408.05109). If you are a novice, don't worry—we have prepared a practical guide for you, covering a wide range of foundational materials [here](#💾-practical-guide-for-novice).
 
 ## 🧭 NL2SQL Introduction 
 Translating users' natural language queries (NL) into SQL queries can significantly reduce barriers to accessing relational databases and support various commercial applications. The performance of NL2SQL has been greatly improved with the emergence of language models (LMs). In this context, it is crucial to assess our current position, determine the NL2SQL solutions that should be adopted for specific scenarios by practitioners, and identify the research topics that researchers should explore next.
