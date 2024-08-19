@@ -18,7 +18,7 @@ In the LLMs era, schema linking has become increasingly crucial due to the input
 ---
 ### DB content Retrival
 #### 🎓Basic concept:
-The purpose of database content retrieval is to efficiently retrieve cell values through textual searching algorithms and database indexing. Database content retrieval emphasizes efficiently retrieving cell values. Given the large scale of databases, retrieving cell values from them is resource-intensive and poses potential risks of exposing sensitive data. Therefore, it is crucial to implement appropriate strategies for the scenario requirement. 
+The purpose of database content retrieval is to efficiently retrieve cell values through textual searching algorithms and database indexing. Given the large scale of databases, retrieving cell values from them is resource-intensive and poses potential risks of exposing sensitive data. Therefore, it is crucial to implement appropriate strategies for the scenario requirement. 
 #### 📚Representative papers：
 + `Paper` [Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing](https://arxiv.org/pdf/2012.12627) 
 + `Describe` BRIDGE designs an anchor text matching to extract cell values mentioned in the NL automatically. It uses a heuristic method to calculate the maximum sequence match between the problem and the cell values to determine the matching boundary. When the cell values are substrings of words in the query, the heuristic can exclude those string matches. The matching threshold is then adjusted by making coarse accuracy measurements.
