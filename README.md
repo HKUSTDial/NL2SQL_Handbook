@@ -41,10 +41,6 @@ utilizing the language model.
 
 ## 📰NL2SQL Paper List
 
-* CodeS: Towards Building Open-source Language Models for Text-to-SQL. 
-[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2402.16347) <img src="https://img.shields.io/badge/SIGMOD'2024-red">
-* FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis. 
-[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2401.10506) <img src="https://img.shields.io/badge/SIGMOD'2024-red">
 * The Dawn of Natural Language to SQL: Are We Fully Ready?
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2406.01265) <img src="https://img.shields.io/badge/VLDB'2024-blue">
 * Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation. 
@@ -52,16 +48,35 @@ utilizing the language model.
 * Interleaving Pre-Trained Language Models and Large Language
 Models for Zero-Shot NL2SQL Generation. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2306.08891) <img src="https://img.shields.io/badge/VLDB'2024-blue">
+* CodeS: Towards Building Open-source Language Models for Text-to-SQL. 
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2402.16347) <img src="https://img.shields.io/badge/SIGMOD'2024-red">
+* FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis. 
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2401.10506) <img src="https://img.shields.io/badge/SIGMOD'2024-red">
 * PURPLE: Making a Large Language Model a Better SQL Writer. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2403.20014) <img src="https://img.shields.io/badge/ICDE'2024-green">
 * METASQL: A Generate-then-Rank Framework for Natural Language to SQL Translation. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2402.17144) <img src="https://img.shields.io/badge/ICDE'2024-green">
+* The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/pdf/2408.07702) <img src="https://img.shields.io/badge/arXiv'2024-purple">
+* DBCopilot: Scaling Natural Language Querying to Massive Databases.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2312.03463) <img src="https://img.shields.io/badge/arXiv'2024-purple">
+* CHESS: Contextual Harnessing for Efficient SQL Synthesis.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2405.16755) <img src="https://img.shields.io/badge/arXiv'2024-purple">
+* Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://dl.acm.org/doi/abs/10.1145/3589292) <img src="https://img.shields.io/badge/VLDB'2023-blue">
+* CatSQL: Towards Real World Natural Language to SQL Applications.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://www.vldb.org/pvldb/vol16/p1534-fu.pdf) <img src="https://img.shields.io/badge/VLDB'2023-blue">
 * DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2304.11015) <img src="https://img.shields.io/badge/NeurIPS'2023-yellow">
 * ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought.
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2310.17342) <img src="https://img.shields.io/badge/EMNLP'2023-orange">
 * RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2302.05965) <img src="https://img.shields.io/badge/AAAI'2023-cyan">
+* Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing. 
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2301.07507) <img src="https://img.shields.io/badge/AAAI'2023-cyan">
+* Improving Generalization in Language Model-based Text-to-SQL Semantic Parsing: Two Simple Semantic Boundary-based Techniques. [<img src="https://img.shields.io/badge/Paper Link-grey">](https://virtual2023.aclweb.org/paper_P4350.html) <img src="https://img.shields.io/badge/ACL'2023-9cf">
+* C3: Zero-shot Text-to-SQL with ChatGPT 
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2307.07306) <img src="https://img.shields.io/badge/arXiv'2023-purple">
 
 ## 📊 NL2SQL Benchmark
 We create a timeline of the benchmark's development and mark relevant milestones. You can get more details from this chapter: [📊 Benchmark](chapter/Benchmark.md)
