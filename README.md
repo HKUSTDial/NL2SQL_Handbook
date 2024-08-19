@@ -19,7 +19,7 @@ Translating users' natural language queries (NL) into SQL queries can significan
 
 + Error Analysis: analyzing NL2SQL errors to find the root cause and guiding NL2SQL models to evolve.
 
-## 🤔 Where Are We
+## 🤔 Where Are We?
 We categorize the challenges of NL2SQL into five levels and define each level's specific challenges. The first three levels focus on challenges that have been addressed or are still being tackled, affirming the progressive development of NL2SQL. The fourth level symbolizes the challenges we aim to resolve in the stage of LLMs. Finally, the fifth level represents our aspirations for the ultimate NL2SQL system. 
 
 We describe the evolution of NL2SQL solutions from the perspective of language models, categorizing it into four stages.
@@ -29,17 +29,17 @@ For each stage of NL2SQL, we analyze the changes in target users and the extent 
 </p>
 
 
-## 🧩 Module-based NL2SQL Method
+## 🧩 Module-based NL2SQL Methods
 We summarize the key modules of NL2SQL solutions
 utilizing the language model. 
-+ **Pre-processing** serves as an enhancement to model’s inputs in the NL2SQL parsing process. You can get more details from this chapter: [Pre-Processing](chapter/Pre_Processing.md)
++ **Pre-processing** serves as an enhancement to the model’s inputs in the NL2SQL parsing process. You can get more details from this chapter: [Pre-Processing](chapter/Pre_Processing.md)
 + **NL2SQL translation methods** constitute the core of the NL2SQL solution, responsible for converting input natural language queries into SQL queries. You can get more details from this chapter: [NL2SQL Translation Methods](chapter/Translation_method.md)
 + **Post-processing** is a crucial step to refine the generated SQL queries, ensuring they meet user expectations more accurately. You can get more details from this chapter: [Post-Processing](chapter/Post_Processing.md)
 <p align="center">
 <img width="600" src="./assets/Model_Module_Overview.png"/>
 </p>
 
-## 📰NL2SQL Papaer List
+## 📰NL2SQL Paper List
 
 * CodeS: Towards Building Open-source Language Models for Text-to-SQL. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2402.16347) <img src="https://img.shields.io/badge/SIGMOD'2024-red">
@@ -69,7 +69,7 @@ We create a timeline of the benchmark's development and mark relevant milestones
 <img width="800" src="./assets/dataset_timeline.png"/>
 </p>
 
-## 🎯 Where Are We Going
+## 🎯 Where Are We Going?
 
 * 🎯Sovle Open NL2SQL Problem
 * 🎯Develop Cost-effective NL2SQL Methods
@@ -92,7 +92,7 @@ You can get more information from our subsection. We introduce representative pa
 * We collect NL2SQL benchmark features and download links for you. You can get more details from this chapter: [Benchmark](chapter/Benchmark.md)
 * The analysis code for benchmarks is available in the `src/dataset_analysis` directory. Benchmark analysis reports can be found in the `report/` directory.
 
-### 🛠️ How to build a LLM-based NL2SQL model:
+### 🛠️ How to build an LLM-based NL2SQL model:
 
 * Litgpt [Repository Link](https://github.com/Lightning-AI/litgpt)
 
