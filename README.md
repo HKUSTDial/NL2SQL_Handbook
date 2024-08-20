@@ -41,42 +41,58 @@ utilizing the language model.
 
 ## 📰NL2SQL Paper List
 
-* The Dawn of Natural Language to SQL: Are We Fully Ready?
+1. The Dawn of Natural Language to SQL: Are We Fully Ready?
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2406.01265) <img src="https://img.shields.io/badge/VLDB'2024-blue">
-* Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation. 
+1. Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2308.15363) <img src="https://img.shields.io/badge/VLDB'2024-blue">
-* Interleaving Pre-Trained Language Models and Large Language
+1. Interleaving Pre-Trained Language Models and Large Language
 Models for Zero-Shot NL2SQL Generation. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2306.08891) <img src="https://img.shields.io/badge/VLDB'2024-blue">
-* CodeS: Towards Building Open-source Language Models for Text-to-SQL. 
+1. CodeS: Towards Building Open-source Language Models for Text-to-SQL. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2402.16347) <img src="https://img.shields.io/badge/SIGMOD'2024-red">
-* FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis. 
+1. FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2401.10506) <img src="https://img.shields.io/badge/SIGMOD'2024-red">
-* PURPLE: Making a Large Language Model a Better SQL Writer. 
+1. PURPLE: Making a Large Language Model a Better SQL Writer. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2403.20014) <img src="https://img.shields.io/badge/ICDE'2024-green">
-* METASQL: A Generate-then-Rank Framework for Natural Language to SQL Translation. 
+1. METASQL: A Generate-then-Rank Framework for Natural Language to SQL Translation. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2402.17144) <img src="https://img.shields.io/badge/ICDE'2024-green">
-* The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models.
+1. The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models.
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/pdf/2408.07702) <img src="https://img.shields.io/badge/arXiv'2024-purple">
-* DBCopilot: Scaling Natural Language Querying to Massive Databases.
+1. DBCopilot: Scaling Natural Language Querying to Massive Databases.
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2312.03463) <img src="https://img.shields.io/badge/arXiv'2024-purple">
-* CHESS: Contextual Harnessing for Efficient SQL Synthesis.
+1. CHESS: Contextual Harnessing for Efficient SQL Synthesis.
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2405.16755) <img src="https://img.shields.io/badge/arXiv'2024-purple">
-* Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning.
+1. PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2403.09732) <img src="https://img.shields.io/badge/arXiv'2024-purple">
+1. CoE-SQL: In-Context Learning for Multi-Turn Text-to-SQL with Chain-of-Editions.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2405.02712) <img src="https://img.shields.io/badge/arXiv'2024-purple">
+1. Metasql: A generate-then-rank framework for natural language to sql translation.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2402.17144) <img src="https://img.shields.io/badge/arXiv'2024-purple">
+1. Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning.
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://dl.acm.org/doi/abs/10.1145/3589292) <img src="https://img.shields.io/badge/VLDB'2023-blue">
-* CatSQL: Towards Real World Natural Language to SQL Applications.
+1. CatSQL: Towards Real World Natural Language to SQL Applications.
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://www.vldb.org/pvldb/vol16/p1534-fu.pdf) <img src="https://img.shields.io/badge/VLDB'2023-blue">
-* DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction. 
+1. DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2304.11015) <img src="https://img.shields.io/badge/NeurIPS'2023-yellow">
-* ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought.
+1. ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought.
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2310.17342) <img src="https://img.shields.io/badge/EMNLP'2023-orange">
-* RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL. 
+1. Selective Demonstrations for Cross-domain Text-to-SQL.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2310.06302) <img src="https://img.shields.io/badge/EMNLP'2023-orange">
+1. RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2302.05965) <img src="https://img.shields.io/badge/AAAI'2023-cyan">
-* Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing. 
+1. Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing. 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2301.07507) <img src="https://img.shields.io/badge/AAAI'2023-cyan">
-* Improving Generalization in Language Model-based Text-to-SQL Semantic Parsing: Two Simple Semantic Boundary-based Techniques. [<img src="https://img.shields.io/badge/Paper Link-grey">](https://virtual2023.aclweb.org/paper_P4350.html) <img src="https://img.shields.io/badge/ACL'2023-9cf">
-* C3: Zero-shot Text-to-SQL with ChatGPT 
+1. Improving Generalization in Language Model-based Text-to-SQL Semantic Parsing: Two Simple Semantic Boundary-based Techniques. [<img src="https://img.shields.io/badge/Paper Link-grey">](https://virtual2023.aclweb.org/paper_P4350.html) <img src="https://img.shields.io/badge/ACL'2023-9cf">
+1. G<sup>3</sup>R: A Graph-Guided Generate-and-Rerank Framework for Complex and Cross-domain Text-to-SQL Generation.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://aclanthology.org/2023.findings-acl.23/) <img src="https://img.shields.io/badge/ACL(findings)'2023-9cf">
+1. Importance of Synthesizing High-quality Data for Text-to-SQL Parsing.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://aclanthology.org/2023.findings-acl.86.pdf) <img src="https://img.shields.io/badge/ACL(findings)'2023-9cf">
+1. C3: Zero-shot Text-to-SQL with ChatGPT 
 [<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2307.07306) <img src="https://img.shields.io/badge/arXiv'2023-purple">
+1. MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2312.11242) <img src="https://img.shields.io/badge/arXiv'2023-purple">
+1. SQLformer: Deep Auto-Regressive Query Graph Generation for Text-to-SQL Translation.
+[<img src="https://img.shields.io/badge/Paper Link-grey">](https://arxiv.org/abs/2310.18376) <img src="https://img.shields.io/badge/arXiv'2023-purple">
 
 ## 📊 NL2SQL Benchmark
 We create a timeline of the benchmark's development and mark relevant milestones. You can get more details from this chapter: [📊 Benchmark](chapter/Benchmark.md)
