@@ -8,6 +8,10 @@ If you are a novice, don't worry—we have prepared a practical guide for you, c
 ## 🧭 NL2SQL Introduction 
 Translating users' natural language queries (NL) into SQL queries can significantly reduce barriers to accessing relational databases and support various commercial applications. The performance of NL2SQL has been greatly improved with the emergence of language models (LMs). In this context, it is crucial to assess our current position, determine the NL2SQL solutions that should be adopted for specific scenarios by practitioners, and identify the research topics that researchers should explore next.
 
+<p align="center">
+<img width="800" src="./assets/NL2SQL.jpg"/>
+</p>
+
 ## 📈 NL2SQL Lifecycle
 
 <p align="center">
@@ -23,7 +27,7 @@ Translating users' natural language queries (NL) into SQL queries can significan
 + Error Analysis: analyzing NL2SQL errors to find the root cause and guiding NL2SQL models to evolve.
 
 ## 🤔 Where Are We?
-We categorize the challenges of NL2SQL into five levels and define each level's specific challenges. The first three levels focus on challenges that have been addressed or are still being tackled, affirming the progressive development of NL2SQL. The fourth level symbolizes the challenges we aim to resolve in the stage of LLMs. Finally, the fifth level represents our aspirations for the ultimate NL2SQL system. 
+we categorize the challenges of NL2SQL into five levels, each addressing specific hurdles. The first three levels cover challenges that have been or are currently being addressed, reflecting the progressive development of NL2SQL. The fourth level represents the challenges we aim to tackle in the LLMs stage, while the fifth level outlines our vision for NL2SQL system in the next five years. 
 
 We describe the evolution of NL2SQL solutions from the perspective of language models, categorizing it into four stages.
 For each stage of NL2SQL, we analyze the changes in target users and the extent to which challenges are addressed.
