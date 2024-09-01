@@ -14,8 +14,8 @@ ALL_DATASETS = [
     # Scholar(),
     # WikiSQL(),
     # Advising(),
-    Spider(),
-    BIRD(),
+    # Spider(),
+    # BIRD(),
     # CSpider(),
     # SParC(),
     # CoSpider(),
@@ -37,7 +37,8 @@ ALL_DATASETS = [
     # DuSQL(),
     # ViText2SQL(),
     # MIMICSQL(),
-    # PortugueseSpider()
+    # PortugueseSpider(),
+    Archer()
 ]
 
 def report_dataset(dataset: Dataset):

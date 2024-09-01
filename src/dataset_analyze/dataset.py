@@ -1169,10 +1169,33 @@ class PortugueseSpider(Dataset):
     def get_all_db_paths(self):
         db_paths = [os.path.join(self.ROOT_PATH, "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
         return db_paths
+
+
+class Archer(Dataset):
+    
+    ROOT_PATH = "data/archer"
+    
+    def get_all_questions(self):
+        data_json = []
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "train.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8")))
+        all_questions = [item["question"] for item in data_json]
+        return all_questions
+    
+    def get_all_queries(self):
+        data_json = []
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "train.json"), "r", encoding="utf-8")))
+        data_json.extend(json.load(open(os.path.join(self.ROOT_PATH, "dev.json"), "r", encoding="utf-8")))
+        all_queries = list(set([item["query"].strip() for item in data_json]))
+        return all_queries
+    
+    def get_all_db_paths(self):
+        db_paths = [os.path.join(self.ROOT_PATH, "database", db_id, f"{db_id}.sqlite") for db_id in os.listdir(os.path.join(self.ROOT_PATH, "database"))]
+        return db_paths
     
     
 if __name__ == "__main__":
-    dataset = PortugueseSpider()
+    dataset = Archer()
     print(len(dataset.get_all_questions()))
     print(len(dataset.get_all_queries()))
     print(len(dataset.get_all_db_paths()))
