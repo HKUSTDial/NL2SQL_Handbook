@@ -1,1 +1,1 @@
-figures or other source
+Figures or other source

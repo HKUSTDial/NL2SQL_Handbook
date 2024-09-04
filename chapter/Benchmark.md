@@ -36,4 +36,5 @@
 | ScienceBenchmark | 2024 | English         | Single-domain | Single    | Auto-generated + Mannual | [Paper](https://arxiv.org/abs/2306.04743)                    | [Download](https://github.com/ckosten/sciencebenchmark_dataset) |
 | BULL             | 2024 | English/Chinese | Single-domain | Single    | Hand-crafted             | [Paper](https://arxiv.org/abs/2401.10506v1)                  | [Download](https://github.com/bigbigwatermalon/FinSQL)       |
 | BookSQL          | 2024 | English         | Single-domain | Single    | Hand-crafted             | [Paper](https://arxiv.org/abs/2406.07860)                    | [Download](https://github.com/Exploration-Lab/BookSQL)       |
+| Archer           | 2024 | English/Chinese | Cross-domain  | Single    | Hand-crafted             | [Paper](https://aclanthology.org/2024.eacl-long.6/)                    | [Download](https://sig4kg.github.io/archer-bench/)       |
 

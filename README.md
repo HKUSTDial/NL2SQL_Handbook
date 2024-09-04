@@ -1,15 +1,30 @@
  <h1 align="center">NL2SQL Handbook</h1>
  
-From this repository, you can view the latest advancements in NL2SQL. This handbook corresponds to our survey **"A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?"**. We also provide tutorial slides to summarize the key points of this survey.
-* [Paper Link](https://arxiv.org/abs/2408.05109)
-* [Slides Link](./slides/) <font color=#808080>(to appear)</font>
+From this repository, you can view the latest advancements in NL2SQL. This handbook corresponds to our survey paper: [A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?](https://arxiv.org/abs/2408.05109). We also provide [tutorial slides](./slides/NL2SQL_handbook.pdf) to summarize the key points of this survey. Based on the trends in the development of language models, we have created a river diagram of NL2SQL methods to trace the evolution of the NL2SQL field.
 
 If you are a novice, don't worry—we have prepared a practical guide for you, covering a wide range of foundational materials [here](#-practical-guide-for-novice).
+
+<p align="center">
+<img width="800" src="./assets/river.svg"/>
+</p>
+
+```bibtex
+@misc{liu2024surveynl2sqllargelanguage,
+      title={A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?}, 
+      author={Xinyu Liu and Shuyu Shen and Boyan Li and Peixian Ma and Runzhi Jiang and Yuyu Luo and Yuxin Zhang and Ju Fan and Guoliang Li and Nan Tang},
+      year={2024},
+      eprint={2408.05109},
+      archivePrefix={arXiv},
+      primaryClass={cs.DB},
+      url={https://arxiv.org/abs/2408.05109}, 
+}
+```
+
 ## 🧭 NL2SQL Introduction 
 Translating users' natural language queries (NL) into SQL queries can significantly reduce barriers to accessing relational databases and support various commercial applications. The performance of NL2SQL has been greatly improved with the emergence of language models (LMs). In this context, it is crucial to assess our current position, determine the NL2SQL solutions that should be adopted for specific scenarios by practitioners, and identify the research topics that researchers should explore next.
 
 <p align="center">
-<img width="800" src="./assets/NL2SQL.jpg"/>
+<img width="600" src="./assets/NL2SQL.jpg"/>
 </p>
 
 ## 📈 NL2SQL Lifecycle
@@ -103,7 +118,7 @@ Models for Zero-Shot NL2SQL Generation.
 ## 📊 NL2SQL Benchmark
 We create a timeline of the benchmark's development and mark relevant milestones. You can get more details from this chapter: [📊 Benchmark](chapter/Benchmark.md)
 <p align="center">
-<img width="800" src="./assets/dataset_timeline.png"/>
+<img width="800" src="./assets/Dataset_timeline.svg"/>
 </p>
 
 ## 🎯 Where Are We Going?
@@ -162,16 +177,4 @@ You can get some inspiration from the Roadmap and Decision Flow.
 <img width="800" src="./assets/NL2SQL_Guidance.png"/>
 </p>
 
-## 📌 Citation
 
-```
-@misc{liu2024surveynl2sqllargelanguage,
-      title={A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?}, 
-      author={Xinyu Liu and Shuyu Shen and Boyan Li and Peixian Ma and Runzhi Jiang and Yuyu Luo and Yuxin Zhang and Ju Fan and Guoliang Li and Nan Tang},
-      year={2024},
-      eprint={2408.05109},
-      archivePrefix={arXiv},
-      primaryClass={cs.DB},
-      url={https://arxiv.org/abs/2408.05109}, 
-}
-```
