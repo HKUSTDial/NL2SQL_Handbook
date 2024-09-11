@@ -47,7 +47,7 @@ we categorize the challenges of NL2SQL into five levels, each addressing specifi
 We describe the evolution of NL2SQL solutions from the perspective of language models, categorizing it into four stages.
 For each stage of NL2SQL, we analyze the changes in target users and the extent to which challenges are addressed.
 <p align="center">
-<img width="800" src="./assets/NL2SQL_Evolution.png"/>
+<img width="800" src="./assets/The Evolution of NL2SQL Solutions from the Perspective of Language Models.svg"/>
 </p>
 
 
@@ -58,7 +58,7 @@ utilizing the language model.
 + **NL2SQL translation methods** constitute the core of the NL2SQL solution, responsible for converting input natural language queries into SQL queries. You can get more details from this chapter: [NL2SQL Translation Methods](chapter/Translation_method.md)
 + **Post-processing** is a crucial step to refine the generated SQL queries, ensuring they meet user expectations more accurately. You can get more details from this chapter: [Post-Processing](chapter/Post_Processing.md)
 <p align="center">
-<img width="600" src="./assets/Model_Module_Overview.png"/>
+<img width="600" src="./assets/An Overview of NL2SQL Method in the LLM Era.svg"/>
 </p>
 
 ## 📰NL2SQL Paper List
@@ -70,6 +70,8 @@ utilizing the language model.
 1. Interleaving Pre-Trained Language Models and Large Language
 Models for Zero-Shot NL2SQL Generation. 
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2306.08891) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ruc-datalab/ZeroNL2SQL)
+1. Generating Succinct Descriptions of Database Schemata for Cost-Efficient Prompting of Large Language Models. 
+<img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/abs/10.14778/3681954.3682017) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/itrummer/schemacompressionL)
 1. CodeS: Towards Building Open-source Language Models for Text-to-SQL. 
 <img src="https://img.shields.io/badge/SIGMOD'2024-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2402.16347) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/RUCKBReasoning/codes)
 1. FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis. 
@@ -174,7 +176,7 @@ We collect NL2SQL evaluation metrics for you. You can get more details from this
 
 You can get some inspiration from the Roadmap and Decision Flow.
 <p align="center">
-<img width="800" src="./assets/NL2SQL_Guidance.png"/>
+<img width="800" src="./assets/NL2SQL_Guidance.svg"/>
 </p>
 
 

@@ -27,6 +27,9 @@
   - **Description:** **NL2SQL360** is a testbed for fine-grained evaluation of NL2SQL solutions. The testbed integrates existing NL2SQL benchmarks, a repository of NL2SQL models, and various evaluation metrics, which aims to provide an intuitive and user-friendly platform to enable both standard and customized performance evaluations. Users can utilize **NL2SQL360** to assess different NL2SQL methods against established benchmarks or tailor their evaluations based on specific criteria. This flexibility allows for testing solutions in specific data domains or analyzing performance on different characteristics of SQL queries.
   - [Paper Link](https://arxiv.org/abs/2406.01265)
   - [Repository Link](https://github.com/HKUSTDial/NL2SQL360)
+  <p align="center">
+  <img width="600" src="../assets/An Overview of NL2SQL360.svg"/>
+  </p>
 - **MT-TEQL**
   - **Description:** **MT-TEQL** is unified framework for evaluating the performance of NL2SQL systems in handling real-world variations in NL questions and database schemas. It is based on a meta-morphic testing approach, implementing semantic-preserving transformations of NL questions and database schemas to automatically generate their variants without manual efforts.
   - [Paper Link](https://www.vldb.org/pvldb/vol15/p569-ma.pdf)
