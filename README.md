@@ -80,6 +80,8 @@ Models for Zero-Shot NL2SQL Generation.
 <img src="https://img.shields.io/badge/ICDE'2024-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2403.20014) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/httdty/purple)
 1. METASQL: A Generate-then-Rank Framework for Natural Language to SQL Translation. 
 <img src="https://img.shields.io/badge/ICDE'2024-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2402.17144) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Kaimary/MetaSQL)
+1. Archer: A Human-Labeled Text-to-SQL Dataset with Arithmetic, Commonsense and Hypothetical Reasoning.
+<img src="https://img.shields.io/badge/ACL'2024-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2024.eacl-long.6/) [<img src="https://img.shields.io/badge/Code-grey">](https://sig4kg.github.io/archer-bench/)
 1. The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.07702) 
 1. DBCopilot: Scaling Natural Language Querying to Massive Databases.
@@ -90,6 +92,8 @@ Models for Zero-Shot NL2SQL Generation.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2403.09732) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ruc-datalab/ZeroNL2SQL)
 1. CoE-SQL: In-Context Learning for Multi-Turn Text-to-SQL with Chain-of-Editions.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2405.02712) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/X-LANCE/text2sql-multiturn-GPT)
+1. AMBROSIA: A Benchmark for Parsing Ambiguous Questions into Database Queries.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.19073) [<img src="https://img.shields.io/badge/Code-grey">](https://ambrosia-benchmark.github.io/)
 1. Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning.
 <img src="https://img.shields.io/badge/VLDB'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/abs/10.1145/3589292) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ruc-datalab/SC-prompt)
 1. CatSQL: Towards Real World Natural Language to SQL Applications.
@@ -110,6 +114,8 @@ Models for Zero-Shot NL2SQL Generation.
 <img src="https://img.shields.io/badge/ACL(findings)'2023-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2023.findings-acl.23/) 
 1. Importance of Synthesizing High-quality Data for Text-to-SQL Parsing.
 <img src="https://img.shields.io/badge/ACL(findings)'2023-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2023.findings-acl.86.pdf) 
+1. Know What I don’t Know: Handling Ambiguous and Unknown Questions for Text-to-SQL.
+<img src="https://img.shields.io/badge/ACL(findings)'2023-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2023.findings-acl.352/) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/wbbeyourself/DTE)
 1. C3: Zero-shot Text-to-SQL with ChatGPT 
 <img src="https://img.shields.io/badge/arXiv'2023-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2307.07306) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/bigbigwatermalon/C3SQL)
 1. MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL.
