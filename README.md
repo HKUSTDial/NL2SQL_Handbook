@@ -82,6 +82,19 @@ Models for Zero-Shot NL2SQL Generation.
 <img src="https://img.shields.io/badge/ICDE'2024-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2402.17144) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Kaimary/MetaSQL)
 1. Archer: A Human-Labeled Text-to-SQL Dataset with Arithmetic, Commonsense and Hypothetical Reasoning.
 <img src="https://img.shields.io/badge/ACL'2024-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2024.eacl-long.6/) [<img src="https://img.shields.io/badge/Code-grey">](https://sig4kg.github.io/archer-bench/)
+1. Synthesizing Text-to-SQL Data from Weak and Strong LLMs.
+<img src="https://img.shields.io/badge/ACL'2024-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.03256) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Yangjiaxi/Sense)
+1. Understanding the Effects of Noise in Text-to-SQL: An Examination of the BIRD-Bench Benchmark.
+<img src="https://img.shields.io/badge/ACL'2024-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2402.12243) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/niklaswretblad/the-effects-of-noise-in-text-to-SQL)
+1. I Need Help! Evaluating LLM’s Ability to Ask for Users’ Support: A Case Study on Text-to-SQL Generation.
+<img src="https://img.shields.io/badge/EMNLP'2024-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.14767) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/appier-research/i-need-help)
+1. PTD-SQL: Partitioning and Targeted Drilling with LLMs in Text-to-SQL.
+<img src="https://img.shields.io/badge/EMNLP'2024-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2409.14082) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/lrlbbzl/PTD-SQL)
+1. Improving Retrieval-augmented Text-to-SQL with AST-based Ranking and Schema Pruning.
+<img src="https://img.shields.io/badge/EMNLP'2024-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.03227)
+1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized
+Candidate Selection in Text-to-SQL.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
 1. The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.07702) 
 1. DBCopilot: Scaling Natural Language Querying to Massive Databases.
