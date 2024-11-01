@@ -2,7 +2,7 @@
  
 From this repository, you can view the latest advancements in NL2SQL. This handbook corresponds to our survey paper: [A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?](https://arxiv.org/abs/2408.05109). We also provide [tutorial slides](./slides/NL2SQL_handbook.pdf) to summarize the key points of this survey. Based on the trends in the development of language models, we have created a river diagram of NL2SQL methods to trace the evolution of the NL2SQL field.
 
-If you are a novice, don't worry—we have prepared a practical guide for you, covering a wide range of foundational materials [here](#-practical-guide-for-novice).
+If you are a novice, don't worry—we have prepared a practical guide for you, covering a wide range of foundational materials [here](#-practical-guide-for-novice). We summarized NL2SQL related [applications](#📱-nl2sql-related-applications).
 
 <p align="center">
 <img width="800" src="./assets/river.svg"/>
@@ -61,17 +61,39 @@ utilizing the language model.
 <img width="600" src="./assets/An Overview of NL2SQL Method in the LLM Era.svg"/>
 </p>
 
-## 📰NL2SQL Paper List
+## 📚 NL2SQL Survey & Tutriol
+
+1. A Survey of NL2SQL with Large Language Models: Where are we, and where are we going？
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2408.05109) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL_Handbook)
+1. Next-generation databas interfaces: A survey of llm-based text-to-sql.<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.08426)
+1. Large Language Model Enhanced Text-to-SQL Generation: A Survey.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2410.06011)
+1. From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01066)
+1. Natural language interfaces for tabular data querying and visualization: A survey.
+<img src="https://img.shields.io/badge/TKDE'2024-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2310.17894)
+1. Natural Language Interfaces for Databases with Deep Learning.<img src="https://img.shields.io/badge/VLDB'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1007/s00778-022-00776-8)
+1. A survey on deep learning approaches for text-to-SQL.
+<img src="https://img.shields.io/badge/VLDBJ'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1007/s00778-022-00776-8)
+1. Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect.
+<img src="https://img.shields.io/badge/COLING'2022-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2022.coling-1.190/)
+1. A Deep Dive into Deep Learning Approaches for Text-to-SQL Systems.
+<img src="https://img.shields.io/badge/SIGMOD'2021-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3448016.3457543)
+1. State of the Art and Open Challenges in Natural Language Interfaces to Data.
+<img src="https://img.shields.io/badge/SIGMOD'2020-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3318464.3383128)
+1. Natural language to SQL: Where are we today? <img src="https://img.shields.io/badge/VLDB'2020-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.vldb.org/pvldb/vol13/p1737-kim.pdf)
+
+## 📰 NL2SQL Paper List
 
 1. The Dawn of Natural Language to SQL: Are We Fully Ready?
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.01265) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL360)
 1. Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation. 
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2308.15363) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/BeachWang/DAIL-SQL) 
-1. Interleaving Pre-Trained Language Models and Large Language
-Models for Zero-Shot NL2SQL Generation. 
+1. Interleaving Pre-Trained Language Models and Large Language Models for Zero-Shot NL2SQL Generation. 
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2306.08891) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ruc-datalab/ZeroNL2SQL)
 1. Generating Succinct Descriptions of Database Schemata for Cost-Efficient Prompting of Large Language Models. 
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/abs/10.14778/3681954.3682017) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/itrummer/schemacompression)
+1. ScienceBenchmark: A Complex Real-World Benchmark for Evaluating Natural Language to SQL Systems.<img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2306.04743) [<img src="https://img.shields.io/badge/Code-grey">](https://sciencebenchmark.cloudlab.zhaw.ch/)
 1. CodeS: Towards Building Open-source Language Models for Text-to-SQL. 
 <img src="https://img.shields.io/badge/SIGMOD'2024-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2402.16347) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/RUCKBReasoning/codes)
 1. FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis. 
@@ -92,6 +114,10 @@ Models for Zero-Shot NL2SQL Generation.
 <img src="https://img.shields.io/badge/EMNLP'2024-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2409.14082) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/lrlbbzl/PTD-SQL)
 1. Improving Retrieval-augmented Text-to-SQL with AST-based Ranking and Schema Pruning.
 <img src="https://img.shields.io/badge/EMNLP'2024-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.03227)
+1. E-SQL: Direct Schema Linking via Question Enrichment in Text-to-SQL.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2409.16751) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HasanAlpCaferoglu/E-SQL)
+1. DB-GPT: Empowering Database Interactions with Private Large Language Models.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.17449) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/eosphoros-ai/DB-GPT)
 1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized
 Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
@@ -191,6 +217,7 @@ We collect NL2SQL evaluation metrics for you. You can get more details from this
 
     It is now the official tool of [BIRD-SQL](https://bird-bench.github.io/). It is the first tool to propose VES and give an official test suite. <img src="https://img.shields.io/badge/EX-red"> <img src="https://img.shields.io/badge/VES-blue">
 
+
 ### 🗺️ Roadmap and Decision Flow
 
 You can get some inspiration from the Roadmap and Decision Flow.
@@ -198,4 +225,8 @@ You can get some inspiration from the Roadmap and Decision Flow.
 <img width="800" src="./assets/NL2SQL_Guidance.svg"/>
 </p>
 
+## 📱 NL2SQL Related Applications:
 
+* Chat2DB: AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more. [<img src="https://img.shields.io/badge/Repositor Link-grey">](https://github.com/codePhiliaX/Chat2DB) [<img src="https://img.shields.io/badge/Web Link-98f">](https://chat2db-ai.com/zh-CN)
+* DB-GPT: AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents. [<img src="https://img.shields.io/badge/Repositor Link-grey">](https://github.com/eosphoros-ai/DB-GPT) 
+* Postgres.new: In-browser Postgres sandbox with AI assistance.  [<img src="https://img.shields.io/badge/Repositor Link-grey">](https://github.com/supabase-community/postgres-new/tree/main) [<img src="https://img.shields.io/badge/Web Link-98f">](https://postgres.new/)
