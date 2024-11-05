@@ -197,7 +197,10 @@ You can get more information from our subsection. We introduce representative pa
 
     This repository offers access to over 20 high-performance large language models (LLMs) with comprehensive guides for pretraining, fine-tuning, and deploying at scale. It is designed to be beginner-friendly with from-scratch implementations and no complex abstractions.
 
-* Fine-tuning and  In-Context learning for BIRD-SQL benchmark [Repository Link](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird#fine-tuning-ft)
+* LLaMA-Factory [Repository Link](https://github.com/hiyouga/LLaMA-Factory)
+    Unified Efficient Fine-Tuning of 100+ LLMs. Integrating various models with scalable training resources, advanced algorithms, practical tricks, and comprehensive experiment monitoring tools, this setup enables efficient and faster inference through optimized APIs and UIs.
+
+* Fine-tuning and In-Context learning for BIRD-SQL benchmark [Repository Link](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird#fine-tuning-ft)
     
     A tutorial for both Fine-tuning and In-Context Learning is provided by the BIRD-SQL benchmark. 
 
