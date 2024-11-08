@@ -61,7 +61,7 @@ utilizing the language model.
 <img width="600" src="./assets/An Overview of NL2SQL Method in the LLM Era.svg"/>
 </p>
 
-## 📚 NL2SQL Survey & Tutriol
+## 📚 NL2SQL Survey & Tutorial
 
 1. A Survey of NL2SQL with Large Language Models: Where are we, and where are we going？
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2408.05109) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL_Handbook)
