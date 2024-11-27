@@ -70,6 +70,8 @@ utilizing the language model.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2410.06011)
 1. From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01066)
+1. A Survey on Employing Large Language Models for Text-to-SQL Tasks.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.15186)
 1. Natural language interfaces for tabular data querying and visualization: A survey.
 <img src="https://img.shields.io/badge/TKDE'2024-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2310.17894)
 1. Natural Language Interfaces for Databases with Deep Learning.<img src="https://img.shields.io/badge/VLDB'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1007/s00778-022-00776-8)
@@ -114,6 +116,8 @@ utilizing the language model.
 <img src="https://img.shields.io/badge/EMNLP'2024-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2409.14082) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/lrlbbzl/PTD-SQL)
 1. Improving Retrieval-augmented Text-to-SQL with AST-based Ranking and Schema Pruning.
 <img src="https://img.shields.io/badge/EMNLP'2024-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.03227)
+1. Data-Centric Text-to-SQL with Large Language Models. 
+<img src="https://img.shields.io/badge/NeurIPS(workshop)'2024-yellow"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/pdf?id=gDKIjZcg93)
 1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized
 Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
@@ -126,7 +130,7 @@ Candidate Selection in Text-to-SQL.
 1. DB-GPT: Empowering Database Interactions with Private Large Language Models.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.17449) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/eosphoros-ai/DB-GPT)
 1. The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models.
-<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.07702) 
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.07702)  
 1. DBCopilot: Scaling Natural Language Querying to Massive Databases.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.03463) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/tshu-w/DBCopilot)
 1. CHESS: Contextual Harnessing for Efficient SQL Synthesis.
@@ -143,6 +147,8 @@ Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/VLDB'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.vldb.org/pvldb/vol16/p1534-fu.pdf) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/asfuhan/CatSQL)
 1. DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction. 
 <img src="https://img.shields.io/badge/NeurIPS'2023-yellow"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2304.11015) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/MohammadrezaPourreza/Few-shot-NL2SQL-with-prompting/tree/main)
+1. Data Ambiguity Strikes Back: How Documentation Improves GPT's Text-to-SQL. 
+<img src="https://img.shields.io/badge/NeurIPS(workshop)'2023-yellow"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/pdf?id=FflKTuIRTD) 
 1. ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought.
 <img src="https://img.shields.io/badge/EMNLP'2023-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2310.17342) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/X-LANCE/text2sql-GPT)
 1. Selective Demonstrations for Cross-domain Text-to-SQL.
