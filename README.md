@@ -118,6 +118,11 @@ utilizing the language model.
 <img src="https://img.shields.io/badge/EMNLP'2024-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.03227)
 1. Data-Centric Text-to-SQL with Large Language Models. 
 <img src="https://img.shields.io/badge/NeurIPS(workshop)'2024-yellow"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/pdf?id=gDKIjZcg93)
+1. Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.07763) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/xlang-ai/Spider2)
+1. SQL-GEN: Bridging the Dialect Gap for Text-to-SQL Via Synthetic Data And Model Merging.<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.12733v2)
+1. Grounding Natural Language to SQL Translation with Data-Based Self-Explanations.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.02948) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Kaimary/CycleSQL)
 1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized
 Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
