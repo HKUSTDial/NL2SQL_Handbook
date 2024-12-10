@@ -120,6 +120,10 @@ utilizing the language model.
 <img src="https://img.shields.io/badge/NeurIPS(workshop)'2024-yellow"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/pdf?id=gDKIjZcg93)
 1. Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.07763) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/xlang-ai/Spider2)
+1. RSL-SQL: Robust Schema Linking in Text-to-SQL Generation.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2403.15879) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/glee4810/TrustSQL)
+1. TrustSQL: Benchmarking Text-to-SQL Reliability with Penalty-Based Scoring.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.00073) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Laqcce-cao/RSL-SQL)
 1. SQL-GEN: Bridging the Dialect Gap for Text-to-SQL Via Synthetic Data And Model Merging.<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.12733v2)
 1. Grounding Natural Language to SQL Translation with Data-Based Self-Explanations.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.02948) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Kaimary/CycleSQL)
