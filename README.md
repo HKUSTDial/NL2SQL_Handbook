@@ -121,11 +121,13 @@ utilizing the language model.
 1. Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.07763) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/xlang-ai/Spider2)
 1. Structure Guided Large Language Model for SQL Generation. <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2402.13284) 
-1. RSL-SQL: Robust Schema Linking in Text-to-SQL Generation.
+1. A Plug-and-Play Natural Language Rewriter for Natural Language to SQL.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2412.17068) 
+1. RSL-SQL: Robust Schema.   
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2403.15879) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/glee4810/TrustSQL)
 1. TrustSQL: Benchmarking Text-to-SQL Reliability with Penalty-Based Scoring.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.00073) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Laqcce-cao/RSL-SQL)
-1. SQL-GEN: Bridging the Dialect Gap for Text-to-SQL Via Synthetic Data And Model Merging.<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.12733v2)
+1. SQLh-GEN: Bridging the Dialect Gap for Text-to-SQL Via Synthetic Data And Model Merging.<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.12733v2)
 1. Grounding Natural Language to SQL Translation with Data-Based Self-Explanations.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.02948) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Kaimary/CycleSQL)
 1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized
@@ -151,6 +153,8 @@ Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2405.02712) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/X-LANCE/text2sql-multiturn-GPT)
 1. AMBROSIA: A Benchmark for Parsing Ambiguous Questions into Database Queries.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.19073) [<img src="https://img.shields.io/badge/Code-grey">](https://ambrosia-benchmark.github.io/)
+1. Text-to-SQL Calibration: No Need to Ask—Just Rescale Model Probabilities.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.16742) 
 1. Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning.
 <img src="https://img.shields.io/badge/VLDB'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/abs/10.1145/3589292) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ruc-datalab/SC-prompt)
 1. CatSQL: Towards Real World Natural Language to SQL Applications.
