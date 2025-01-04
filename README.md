@@ -118,15 +118,22 @@ utilizing the language model.
 <img src="https://img.shields.io/badge/EMNLP'2024-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.03227)
 1. Data-Centric Text-to-SQL with Large Language Models. 
 <img src="https://img.shields.io/badge/NeurIPS(workshop)'2024-yellow"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/pdf?id=gDKIjZcg93)
+1. XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.08599)
 1. Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.07763) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/xlang-ai/Spider2)
-1. Structure Guided Large Language Model for SQL Generation. <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2402.13284) 
+1. Structure Guided Large Language Model for SQL Generation. 
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2402.13284) 
 1. A Plug-and-Play Natural Language Rewriter for Natural Language to SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2412.17068) 
 1. RSL-SQL: Robust Schema.   
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2403.15879) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/glee4810/TrustSQL)
 1. TrustSQL: Benchmarking Text-to-SQL Reliability with Penalty-Based Scoring.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.00073) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Laqcce-cao/RSL-SQL)
+1. LAIA-SQL: Enhancing Natural Language to SQL Generation in Multi-Table QA via Task Decomposition and Keyword Extraction
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/pdf?id=WYdpjwKQma)
+1. Research on Large Model Text-to-SQL Optimization Method for Intelligent Interaction in the Field of Construction Safety.
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://ieeexplore.ieee.org/abstract/document/10810146)
 1. SQLh-GEN: Bridging the Dialect Gap for Text-to-SQL Via Synthetic Data And Model Merging.<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.12733v2)
 1. Grounding Natural Language to SQL Translation with Data-Based Self-Explanations.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.02948) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Kaimary/CycleSQL)
@@ -135,8 +142,6 @@ Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
 1. Towards Optimizing SQL Generation via LLM Routing.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.04319)
-1. XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL.
-<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.08599)
 1. E-SQL: Direct Schema Linking via Question Enrichment in Text-to-SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2409.16751) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HasanAlpCaferoglu/E-SQL)
 1. DB-GPT: Empowering Database Interactions with Private Large Language Models.
