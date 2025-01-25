@@ -86,6 +86,13 @@ utilizing the language model.
 1. Natural language to SQL: Where are we today? <img src="https://img.shields.io/badge/VLDB'2020-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.vldb.org/pvldb/vol13/p1737-kim.pdf)
 
 ## 📰 NL2SQL Paper List
+1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized
+Candidate Selection in Text-to-SQL.
+<img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
+1. Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows.
+<img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.07763) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/xlang-ai/Spider2)
+1. ROUTE: ROBUST MULTITASK TUNING AND COLLAB-
+ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2412.10138)
 
 1. The Dawn of Natural Language to SQL: Are We Fully Ready?
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.01265) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL360)
@@ -120,16 +127,12 @@ utilizing the language model.
 <img src="https://img.shields.io/badge/NeurIPS(workshop)'2024-yellow"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/pdf?id=gDKIjZcg93)
 1. XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.08599)
-1. Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows.
-<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.07763) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/xlang-ai/Spider2)
 1. Structure Guided Large Language Model for SQL Generation. 
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2402.13284) 
 1. A Plug-and-Play Natural Language Rewriter for Natural Language to SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2412.17068) 
 1. RSL-SQL: Robust Schema Linking in Text-to-SQL Generation.   
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2403.15879) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/glee4810/TrustSQL)
-1. ROUTE: ROBUST MULTITASK TUNING AND COLLAB-
-ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2412.10138)
 1. In-Context Reinforcement Learning based Retrieval-Augmented Generation for Text-to-SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://assets.amazon.science/09/f4/493c574346f895bbb0303282a501/in-context-reinforcement-learning-based-retrieval-augmented-generation-for-text-to-sql.pdf) 
 1. TrustSQL: Benchmarking Text-to-SQL Reliability with Penalty-Based Scoring.
@@ -141,9 +144,6 @@ ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/arXiv'2024-purpl
 1. SQLh-GEN: Bridging the Dialect Gap for Text-to-SQL Via Synthetic Data And Model Merging.<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.12733v2)
 1. Grounding Natural Language to SQL Translation with Data-Based Self-Explanations.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.02948) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Kaimary/CycleSQL)
-1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized
-Candidate Selection in Text-to-SQL.
-<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
 1. Towards Optimizing SQL Generation via LLM Routing.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.04319)
 1. E-SQL: Direct Schema Linking via Question Enrichment in Text-to-SQL.
