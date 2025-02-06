@@ -93,6 +93,7 @@ Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.07763) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/xlang-ai/Spider2)
 1. ROUTE: ROBUST MULTITASK TUNING AND COLLAB-
 ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2412.10138)
+1. Confidence Estimation for Error Detection in Text-to-SQL Systems. <img src="https://img.shields.io/badge/AAAI'2025-cyan"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.09527)
 
 1. The Dawn of Natural Language to SQL: Are We Fully Ready?
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.01265) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL360)
