@@ -9,14 +9,11 @@ If you are a novice, don't worry—we have prepared a practical guide for you, c
 </p>
 
 ```bibtex
-@misc{liu2024surveynl2sqllargelanguage,
-      title={A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?}, 
-      author={Xinyu Liu and Shuyu Shen and Boyan Li and Peixian Ma and Runzhi Jiang and Yuyu Luo and Yuxin Zhang and Ju Fan and Guoliang Li and Nan Tang},
-      year={2024},
-      eprint={2408.05109},
-      archivePrefix={arXiv},
-      primaryClass={cs.DB},
-      url={https://arxiv.org/abs/2408.05109}, 
+@article{liu2024survey,
+  title={A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?},
+  author={Liu, Xinyu and Shen, Shuyu and Li, Boyan and Ma, Peixian and Jiang, Runzhi and Zhang, Yuxin and Fan, Ju and Li, Guoliang and Tang, Nan and Luo, Yuyu},
+  journal={arXiv preprint arXiv:2408.05109},
+  year={2024}
 }
 ```
 
