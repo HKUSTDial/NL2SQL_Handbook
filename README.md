@@ -91,6 +91,7 @@ Candidate Selection in Text-to-SQL.
 1. ROUTE: ROBUST MULTITASK TUNING AND COLLAB-
 ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2412.10138)
 1. Confidence Estimation for Error Detection in Text-to-SQL Systems. <img src="https://img.shields.io/badge/AAAI'2025-cyan"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.09527)
+1. DBCopilot: Scaling Natural Language Querying to Massive Databases.<img src="https://img.shields.io/badge/EDBT/ICDT'2025-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.03463) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/tshu-w/DBCopilot)
 
 1. The Dawn of Natural Language to SQL: Are We Fully Ready?
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.01265) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL360)
@@ -150,8 +151,6 @@ ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-bright
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.17449) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/eosphoros-ai/DB-GPT)
 1. The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2408.07702)  
-1. DBCopilot: Scaling Natural Language Querying to Massive Databases.
-<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.03463) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/tshu-w/DBCopilot)
 1. CHESS: Contextual Harnessing for Efficient SQL Synthesis.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2405.16755) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ShayanTalaei/CHESS)
 1. PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency.
