@@ -83,6 +83,8 @@ utilizing the language model.
 1. Natural language to SQL: Where are we today? <img src="https://img.shields.io/badge/VLDB'2020-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.vldb.org/pvldb/vol13/p1737-kim.pdf)
 
 ## 📰 NL2SQL Paper List
+1. Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.08599)
 1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized
 Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
