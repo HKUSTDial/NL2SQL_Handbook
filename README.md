@@ -84,7 +84,15 @@ utilizing the language model.
 
 ## 📰 NL2SQL Paper List
 1. Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search
-<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.08599)
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.17248)
+1. Is Long Context AIl You Need? Leveraging LLM's ExtendedContext for NL2SQL.
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.12372)
+1. MCTS-SQL: An Effective Framework for Text-to-SQL with Monte Carlo Tree Search.
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.16607)
+1. FI-NL2PY2SQL: Financial Industry NL2SQL Innovation Model Based on Python and Large Language Model.
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.mdpi.com/1999-5903/17/1/12)
+1. OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment.
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.14913)
 1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized
 Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
@@ -94,7 +102,10 @@ Candidate Selection in Text-to-SQL.
 ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2412.10138)
 1. Confidence Estimation for Error Detection in Text-to-SQL Systems. <img src="https://img.shields.io/badge/AAAI'2025-cyan"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.09527)
 1. DBCopilot: Scaling Natural Language Querying to Massive Databases.<img src="https://img.shields.io/badge/EDBT/ICDT'2025-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.03463) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/tshu-w/DBCopilot)
-
+1. Boosting Text-to-SOL through Multi- grained Error Identification.
+<img src="https://img.shields.io/badge/COLING'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2025.coling-main.289.pdf)
+1. Gen-SQL: Efficient Text-to-SQL By Bridging Natural Language Question And Database Schema With Pseudo-Schema.
+<img src="https://img.shields.io/badge/COLING'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2025.coling-main.256/)
 1. The Dawn of Natural Language to SQL: Are We Fully Ready?
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.01265) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL360)
 1. Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation. 
