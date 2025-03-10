@@ -85,6 +85,9 @@ utilizing the language model.
 ## 📰 NL2SQL Paper List
 1. Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search
 <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.17248)
+1. Automatic database description generation for Text-to-SQL
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.20657)
+[<img src="https://img.shields.io/badge/Code-grey">](https://github.com/XGenerationLab/XiYan-DBDescGen)
 1. Is Long Context AIl You Need? Leveraging LLM's ExtendedContext for NL2SQL.
 <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.12372)
 1. MCTS-SQL: An Effective Framework for Text-to-SQL with Monte Carlo Tree Search.
@@ -106,6 +109,9 @@ ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-bright
 <img src="https://img.shields.io/badge/COLING'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2025.coling-main.289.pdf)
 1. Gen-SQL: Efficient Text-to-SQL By Bridging Natural Language Question And Database Schema With Pseudo-Schema.
 <img src="https://img.shields.io/badge/COLING'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2025.coling-main.256/)
+1. Utilising Large Language Models for Adversarial Attacks in Text-to-SQL: A Perpetrator and Victim Approach
+<img src="https://img.shields.io/badge/BTW'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.20657)
+[<img src="https://img.shields.io/badge/Code-grey">](https://github.com/XGenerationLab/XiYan-DBDescGen)
 1. The Dawn of Natural Language to SQL: Are We Fully Ready?
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.01265) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL360)
 1. Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation. 
@@ -137,6 +143,8 @@ ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-bright
 <img src="https://img.shields.io/badge/EMNLP'2024-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.03227)
 1. Data-Centric Text-to-SQL with Large Language Models. 
 <img src="https://img.shields.io/badge/NeurIPS(workshop)'2024-yellow"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/pdf?id=gDKIjZcg93)
+1. Research and Practice on Database Interaction Based on Natural Language Processing
+<img src="https://img.shields.io/badge/AIAC'2024-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2310.17894)
 1. XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.08599)
 1. Structure Guided Large Language Model for SQL Generation. 
