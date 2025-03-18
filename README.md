@@ -83,19 +83,9 @@ utilizing the language model.
 1. Natural language to SQL: Where are we today? <img src="https://img.shields.io/badge/VLDB'2020-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.vldb.org/pvldb/vol13/p1737-kim.pdf)
 
 ## 📰 NL2SQL Paper List
-1. Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search
-<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.17248)
-1. Automatic database description generation for Text-to-SQL
-<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.20657)
-[<img src="https://img.shields.io/badge/Code-grey">](https://github.com/XGenerationLab/XiYan-DBDescGen)
-1. Is Long Context AIl You Need? Leveraging LLM's ExtendedContext for NL2SQL.
-<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.12372)
-1. MCTS-SQL: An Effective Framework for Text-to-SQL with Monte Carlo Tree Search.
-<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.16607)
-1. FI-NL2PY2SQL: Financial Industry NL2SQL Innovation Model Based on Python and Large Language Model.
-<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.mdpi.com/1999-5903/17/1/12)
-1. OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment.
-<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.14913)
+1. OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment. <img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.14913) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/OpenSearch-AI/OpenSearch-SQL)
+1. Reliable Text-to-SQL with Adaptive Abstention.<img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3709727) 
+1. SNAILS: Schema Naming Assessments for Improved LLM-Based SQL Inference.<img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.10858)
 1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized
 Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
@@ -112,6 +102,24 @@ ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-bright
 1. Utilising Large Language Models for Adversarial Attacks in Text-to-SQL: A Perpetrator and Victim Approach
 <img src="https://img.shields.io/badge/BTW'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.20657)
 [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/XGenerationLab/XiYan-DBDescGen)
+1. You Only Read Once (YORO): Learning to Internalize Database Knowledge for Text-to-SQL.
+<img src="https://img.shields.io/badge/NAACL'2024-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2409.12172) [<img src="https://img.shields.io/badge/Code-grey">](https://sig4kg.github.io/archer-bench/)
+1. Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.17248)
+1. NL2SQL-BUGs: A Benchmark for Detecting Semantic Errors in NL2SQL Translation.<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2503.11984) [<img src="https://img.shields.io/badge/Code-grey">](https://nl2sql-bugs.github.io/)
+1. OmniSQL: Synthesizing High-quality Text-to-SQL Data at Scale. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2503.02240) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/RUCKBReasoning/OmniSQL)
+1. Automatic database description generation for Text-to-SQL
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.20657)
+[<img src="https://img.shields.io/badge/Code-grey">](https://github.com/XGenerationLab/XiYan-DBDescGen)
+1. Is Long Context AIl You Need? Leveraging LLM's ExtendedContext for NL2SQL.
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.12372)
+1. MCTS-SQL: An Effective Framework for Text-to-SQL with Monte Carlo Tree Search.
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.16607)
+1. FI-NL2PY2SQL: Financial Industry NL2SQL Innovation Model Based on Python and Large Language Model.
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.mdpi.com/1999-5903/17/1/12)
+1. OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment.
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.14913)
+
 1. The Dawn of Natural Language to SQL: Are We Fully Ready?
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.01265) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL360)
 1. Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation. 
