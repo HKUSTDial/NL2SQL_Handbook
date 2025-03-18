@@ -103,7 +103,7 @@ ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-bright
 <img src="https://img.shields.io/badge/BTW'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.20657)
 [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/XGenerationLab/XiYan-DBDescGen)
 1. You Only Read Once (YORO): Learning to Internalize Database Knowledge for Text-to-SQL.
-<img src="https://img.shields.io/badge/NAACL'2024-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2409.12172) [<img src="https://img.shields.io/badge/Code-grey">](https://sig4kg.github.io/archer-bench/)
+<img src="https://img.shields.io/badge/NAACL'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2409.12172) [<img src="https://img.shields.io/badge/Code-grey">](https://sig4kg.github.io/archer-bench/)
 1. Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search
 <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.17248)
 1. NL2SQL-BUGs: A Benchmark for Detecting Semantic Errors in NL2SQL Translation.<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2503.11984) [<img src="https://img.shields.io/badge/Code-grey">](https://nl2sql-bugs.github.io/)
