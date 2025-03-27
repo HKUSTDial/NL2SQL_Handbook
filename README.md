@@ -115,10 +115,15 @@ ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-bright
 <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.12372)
 1. MCTS-SQL: An Effective Framework for Text-to-SQL with Monte Carlo Tree Search.
 <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.16607)
+1. FEATHER-SQL: A LIGHTWEIGHT NL2SQL FRAME-
+WORK WITH DUAL-MODEL COLLABORATION
+PARADIGM FOR SMALL LANGUAGE MODELS.
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2503.17811)
 1. FI-NL2PY2SQL: Financial Industry NL2SQL Innovation Model Based on Python and Large Language Model.
 <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.mdpi.com/1999-5903/17/1/12)
-1. OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment.
-<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.14913)
+1. FGCSQL: A Three-Stage Pipeline for Large Language Model-Driven Chinese Text-to-SQL
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.mdpi.com/2079-9292/14/6/1214)
+1. Transforming Medical Data Access: The Role and Challenges of Recent Language Models in SQL Query Automation. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.mdpi.com/1999-4893/18/3/124)
 
 1. The Dawn of Natural Language to SQL: Are We Fully Ready?
 <img src="https://img.shields.io/badge/VLDB'2024-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.01265) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL360)
