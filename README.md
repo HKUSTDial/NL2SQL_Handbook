@@ -84,6 +84,7 @@ utilizing the language model.
 
 ## 📰 NL2SQL Paper List
 1. OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment. <img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.14913) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/OpenSearch-AI/OpenSearch-SQL)
+1. Cracking SQL Barrier: An LLM-based Dialect Translation System. <img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/weAIDB/CrackSQL)
 1. Reliable Text-to-SQL with Adaptive Abstention.<img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3709727) 
 1. SNAILS: Schema Naming Assessments for Improved LLM-Based SQL Inference.<img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.10858)
 1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized
@@ -115,6 +116,7 @@ ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-bright
 <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.12372)
 1. MCTS-SQL: An Effective Framework for Text-to-SQL with Monte Carlo Tree Search.
 <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.16607)
+1. SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.11741)
 1. FEATHER-SQL: A LIGHTWEIGHT NL2SQL FRAME-
 WORK WITH DUAL-MODEL COLLABORATION
 PARADIGM FOR SMALL LANGUAGE MODELS.
