@@ -88,7 +88,7 @@ utilizing the language model.
 1. OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment. <img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.14913) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/OpenSearch-AI/OpenSearch-SQL)
 1. Reliable Text-to-SQL with Adaptive Abstention.<img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.10858) 
 1. SNAILS: Schema Naming Assessments for Improved LLM-Based SQL Inference.<img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3709727)
-1. 1. Automated Validating and Fixing of Text-to-SQL Translation with Execution Consistency. <img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://ipads.se.sjtu.edu.cn/zh/publications/SQLDriller.pdf)
+1. Automated Validating and Fixing of Text-to-SQL Translation with Execution Consistency. <img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://ipads.se.sjtu.edu.cn/zh/publications/SQLDriller.pdf)
 1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
 1. Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows.
