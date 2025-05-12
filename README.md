@@ -1,4 +1,4 @@
- <h1 align="center">NL2SQL Handbook</h1>
+ <h1 align="center">Text-to-SQL Handbook</h1>
  
 From this repository, you can view the latest advancements in NL2SQL. This handbook corresponds to our survey paper: [A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?](https://arxiv.org/abs/2408.05109). We also provide [tutorial slides](./slides/NL2SQL_handbook.pdf) to summarize the key points of this survey. Based on the trends in the development of language models, we have created a river diagram of NL2SQL methods to trace the evolution of the NL2SQL field.
 
