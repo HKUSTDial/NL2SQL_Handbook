@@ -85,11 +85,17 @@ utilizing the language model.
 ## 📰 NL2SQL Paper List
 1. Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search
 <img src="https://img.shields.io/badge/ICML'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.17248) [<img src="https://img.shields.io/badge/Code-grey">](https://alpha-sql-hkust.github.io/)
-1. NL2SQL-BUGs: A Benchmark for Detecting Semantic Errors in NL2SQL Translation.<img src="https://img.shields.io/badge/KDD'2025-B6FFBB"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2503.11984) [<img src="https://img.shields.io/badge/Code-grey">](https://nl2sql-bugs.github.io/)
+1. NL2SQL-BUGs: A Benchmark for Detecting Semantic Errors in NL2SQL Translation.<img src="https://img.shields.io/badge/SIGKDD'2025-B6FFBB"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2503.11984) [<img src="https://img.shields.io/badge/Code-grey">](https://nl2sql-bugs.github.io/)
+1. Sphinteract: Resolving Ambiguities in NL2SQL Through User Interaction.
+<img src="https://img.shields.io/badge/VLDB'2025-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.vldb.org/pvldb/vol18/p1145-zhao.pdf) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ZhaoFuheng/Sphinteract)
 1. OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment. <img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.14913) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/OpenSearch-AI/OpenSearch-SQL)
 1. Reliable Text-to-SQL with Adaptive Abstention.<img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.10858) 
 1. SNAILS: Schema Naming Assessments for Improved LLM-Based SQL Inference.<img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3709727)
 1. Automated Validating and Fixing of Text-to-SQL Translation with Execution Consistency. <img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://ipads.se.sjtu.edu.cn/zh/publications/SQLDriller.pdf)
+1. Grounding Natural Language to SQL Translation with Data-Based Self-Explanations.<img src="https://img.shields.io/badge/ICDE'2025-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.02948) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Kaimary/CycleSQL)
+1. AID-SQL: Adaptive In-Context Learning of Text-to-SQL with Difficulty-Aware Instruction and Retrieval-Augmented Generation. <img src="https://img.shields.io/badge/ICDE'2025-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.computer.org/csdl/proceedings-article/icde/2025/360300d945/26FZCc99mg0) 
+1. CLEAR: A Parser-Independent Disambiguation Framework for NL2SQL.
+<img src="https://img.shields.io/badge/ICDE'2025-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.computer.org/csdl/proceedings-article/icde/2025/360300d302/26FZBD2hBJe) [<img src="https://img.shields.io/badge/Code-grey">]()
 1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
 1. Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows.
