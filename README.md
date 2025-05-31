@@ -103,6 +103,7 @@ utilizing the language model.
 1. ROUTE: ROBUST MULTITASK TUNING AND COLLAB-
 ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2412.10138)
 1. Confidence Estimation for Error Detection in Text-to-SQL Systems. <img src="https://img.shields.io/badge/AAAI'2025-cyan"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.09527)
+1. SQLord: A Robust Enterprise Text-to-SQL Solution via Reverse Data Generation and Workflow Decomposition. <img src="https://img.shields.io/badge/WWW'2025-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/pdf/10.1145/3701716.3715541)
 1. DBCopilot: Scaling Natural Language Querying to Massive Databases.<img src="https://img.shields.io/badge/EDBT/ICDT'2025-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.03463) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/tshu-w/DBCopilot)
 1. Boosting Text-to-SOL through Multi- grained Error Identification.
 <img src="https://img.shields.io/badge/COLING'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2025.coling-main.289.pdf)
@@ -118,6 +119,9 @@ ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-bright
 1. SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2504.08600) 
 1. Is Long Context AIl You Need? Leveraging LLM's ExtendedContext for NL2SQL.
 <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.12372)
+1. SQLForge: Synthesizing Reliable and Diverse Data to Enhance
+Text-to-SQL Reasoning in LLMs.
+<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2505.13725)
 1. Think2SQL: Reinforce LLM Reasoning Capabilities for Text2SQL. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2504.15077)
 1. Distill-C: Enhanced NL2SQL via Distilled Customization with LLMs. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2504.00048)
 1. Reasoning-SQL: Reinforcement Learning with SQL Tailored Partial Rewards for Reasoning-Enhanced Text-to-SQL. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2503.23157)
