@@ -62,13 +62,13 @@ utilizing the language model.
 
 1. A Survey of NL2SQL with Large Language Models: Where are we, and where are we going？
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2408.05109) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL_Handbook)
+1. A Survey on Employing Large Language Models for Text-to-SQL Tasks.
+<img src="https://img.shields.io/badge/CSUR'2024-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.15186)
 1. Next-generation databas interfaces: A survey of llm-based text-to-sql.<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.08426)
 1. Large Language Model Enhanced Text-to-SQL Generation: A Survey.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2410.06011)
 1. From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01066)
-1. A Survey on Employing Large Language Models for Text-to-SQL Tasks.
-<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.15186)
 1. Natural language interfaces for tabular data querying and visualization: A survey.
 <img src="https://img.shields.io/badge/TKDE'2024-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2310.17894)
 1. Natural Language Interfaces for Databases with Deep Learning.<img src="https://img.shields.io/badge/VLDB'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1007/s00778-022-00776-8)
@@ -114,6 +114,8 @@ ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-bright
 [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/XGenerationLab/XiYan-DBDescGen)
 1. You Only Read Once (YORO): Learning to Internalize Database Knowledge for Text-to-SQL.
 <img src="https://img.shields.io/badge/NAACL'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2409.12172) [<img src="https://img.shields.io/badge/Code-grey">](https://sig4kg.github.io/archer-bench/)
+1. SQLong: Enhanced NL2SQL for Longer Contexts with LLMs.
+<img src="https://img.shields.io/badge/ACL(Workshop)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.16747) 
 1. EllieSQL: Cost-Efficient Text-to-SQL with Complexity-Aware Routing. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2503.22402) [<img src="https://img.shields.io/badge/Code-grey">](https://elliesql.github.io/)
 1. Reward-SQL: Boosting Text-to-SQL via Stepwise Reasoning and Process-Supervised Rewards. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2505.04671) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ruc-datalab/RewardSQL)
 1. SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2504.08600) 
