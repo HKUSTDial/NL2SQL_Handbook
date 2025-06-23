@@ -1,8 +1,10 @@
  <h1 align="center">Text-to-SQL Handbook</h1>
- 
-From this repository, you can view the [latest advancements](#-nl2sql-survey--tutorial) in NL2SQL (Text-to-SQL). This handbook corresponds to our survey paper: [A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?](https://arxiv.org/abs/2408.05109). We also provide [tutorial slides](./slides/NL2SQL_handbook.pdf) to summarize the key points of this survey. Based on the trends in the development of language models, we have created a river diagram of NL2SQL methods to trace the evolution of the NL2SQL field.
 
-If you are a novice, don't worry—we have prepared a practical guide for you, covering a wide range of foundational materials [here](#-practical-guide-for-novice). We summarized NL2SQL related [applications](#-nl2sql-related-applications).
+ <h3 align="center">NL2SQL Handbook</h3>
+
+From this repository, you can view the [📚latest advancements](#-nl2sql-survey--tutorial) in Text-to-SQL (a.k.a NL2SQL). This handbook corresponds to our survey paper: [📖A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?](https://arxiv.org/abs/2408.05109). We also provide [tutorial slides](./slides/NL2SQL_handbook.pdf) to summarize the key points of this survey. Based on language model trends, we've created a river diagram of Text-to-SQL methods to trace the field's evolution. 
+
+If you are a novice, don't worry—we have prepared a practical guide for you, covering a wide range of [foundational materials](#-practical-guide-for-novice) and related [applications](#-nl2sql-related-applications). 📧If we missed any interesting work, connect with [us](#-connect-with-us).
 
 <p align="center">
 <img width="800" src="./assets/river.svg"/>
@@ -17,50 +19,51 @@ If you are a novice, don't worry—we have prepared a practical guide for you, c
 }
 ```
 
-## 🧭 NL2SQL Introduction 
-Translating users' natural language queries (NL) into SQL queries can significantly reduce barriers to accessing relational databases and support various commercial applications. The performance of NL2SQL has been greatly improved with the emergence of language models (LMs). In this context, it is crucial to assess our current position, determine the NL2SQL solutions that should be adopted for specific scenarios by practitioners, and identify the research topics that researchers should explore next.
+## 🧭 Text-to-SQL Introduction 
+Translating users' natural language queries (NL) into SQL queries can significantly reduce barriers to accessing relational databases and support various commercial applications. The performance of Text-to-SQL has been greatly improved with the emergence of language models (LMs). In this context, it is crucial to assess our current position, determine the Text-to-SQL solutions that should be adopted for specific scenarios by practitioners, and identify the research topics that researchers should explore next.
 
 <p align="center">
 <img width="600" src="./assets/NL2SQL.jpg"/>
 </p>
 
-## 📈 NL2SQL Lifecycle
+## 📈 Text-to-SQL Lifecycle
 
 <p align="center">
 <img width="800" src="./assets/nl2sql_lifecycle.svg"/>
 </p>
 
-+ Model: NL2SQL translation techniques that tackle not only NL ambiguity and under-specification, but also properly map NL with database schema and instances;
++ Model: Text-to-SQL translation techniques that tackle not only NL ambiguity and under-specification, but also properly map NL with database schema and instances;
 
-+ Data: From the collection of training data, data synthesis due to training data scarcity, to NL2SQL benchmarks;
++ Data: From the collection of training data, data synthesis due to training data scarcity, to Text-to-SQL benchmarks;
 
-+ Evaluation: Evaluating NL2SQL methods from multiple angles using different metrics and granularities;
++ Evaluation: Evaluating Text-to-SQL methods from multiple angles using different metrics and granularities;
 
-+ Error Analysis: analyzing NL2SQL errors to find the root cause and guiding NL2SQL models to evolve.
++ Error Analysis: analyzing Text-to-SQL errors to find the root cause and guiding Text-to-SQL models to evolve.
 
 ## 🤔 Where Are We?
-We categorize the challenges of NL2SQL into five levels, each addressing specific hurdles. The first three levels cover challenges that have been or are currently being addressed, reflecting the progressive development of NL2SQL. The fourth level represents the challenges we aim to tackle in the LLMs stage, while the fifth level outlines our vision for NL2SQL system in the next five years. 
+We categorize the challenges of Text-to-SQL into five levels, each addressing specific hurdles. The first three levels cover challenges that have been or are currently being addressed, reflecting the progressive development of Text-to-SQL. The fourth level represents the challenges we aim to tackle in the LLMs stage, while the fifth level outlines our vision for Text-to-SQL system in the next five years. 
 
-We describe the evolution of NL2SQL solutions from the perspective of language models, categorizing it into four stages.
-For each stage of NL2SQL, we analyze the changes in target users and the extent to which challenges are addressed.
+We describe the evolution of Text-to-SQL solutions from the perspective of language models, categorizing it into four stages.
+For each stage of Text-to-SQL, we analyze the changes in target users and the extent to which challenges are addressed.
 <p align="center">
 <img width="800" src="./assets/The Evolution of NL2SQL Solutions from the Perspective of Language Models.svg"/>
 </p>
 
 
-## 🧩 Module-based NL2SQL Methods
-We summarize the key modules of NL2SQL solutions
+## 🧩 Module-based Text-to-SQL Methods
+We summarize the key modules of Text-to-SQL solutions
 utilizing the language model. 
-+ **Pre-processing** serves as an enhancement to the model’s inputs in the NL2SQL parsing process. You can get more details from this chapter: [Pre-Processing](chapter/Pre_Processing.md)
-+ **NL2SQL translation methods** constitute the core of the NL2SQL solution, responsible for converting input natural language queries into SQL queries. You can get more details from this chapter: [NL2SQL Translation Methods](chapter/Translation_method.md)
++ **Pre-processing** serves as an enhancement to the model’s inputs in the Text-to-SQL parsing process. You can get more details from this chapter: [Pre-Processing](chapter/Pre_Processing.md)
++ **Text-to-SQL translation methods** constitute the core of the Text-to-SQL solution, responsible for converting input natural language queries into SQL queries. You can get more details from this chapter: [Text-to-SQL Translation Methods](chapter/Translation_method.md)
 + **Post-processing** is a crucial step to refine the generated SQL queries, ensuring they meet user expectations more accurately. You can get more details from this chapter: [Post-Processing](chapter/Post_Processing.md)
 <p align="center">
 <img width="600" src="./assets/An Overview of NL2SQL Method in the LLM Era.svg"/>
 </p>
 
-## 📚 NL2SQL Survey & Tutorial
+## 📚 Text-to-SQL Survey & Tutorial
 
-1. A Survey of NL2SQL with Large Language Models: Where are we, and where are we going？
+1. A Survey of Text-to-SQL in the Era of LLMs:
+Where are we, and where are we going？
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2408.05109) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL_Handbook)
 1. A Survey on Employing Large Language Models for Text-to-SQL Tasks.
 <img src="https://img.shields.io/badge/CSUR'2024-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.15186)
@@ -82,7 +85,7 @@ utilizing the language model.
 <img src="https://img.shields.io/badge/SIGMOD'2020-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3318464.3383128)
 1. Natural language to SQL: Where are we today? <img src="https://img.shields.io/badge/VLDB'2020-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.vldb.org/pvldb/vol13/p1737-kim.pdf)
 
-## 📰 NL2SQL Paper List
+## 📰 Text-to-SQL Paper List
 1. Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search
 <img src="https://img.shields.io/badge/ICML'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.17248) [<img src="https://img.shields.io/badge/Code-grey">](https://alpha-sql-hkust.github.io/)
 1. NL2SQL-BUGs: A Benchmark for Detecting Semantic Errors in NL2SQL Translation.<img src="https://img.shields.io/badge/SIGKDD'2025-B6FFBB"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2503.11984) [<img src="https://img.shields.io/badge/Code-grey">](https://nl2sql-bugs.github.io/)
@@ -244,7 +247,7 @@ Text-to-SQL Reasoning in LLMs.
 1. SQLformer: Deep Auto-Regressive Query Graph Generation for Text-to-SQL Translation.
 <img src="https://img.shields.io/badge/arXiv'2023-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2310.18376) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/AdrianBZG/SQLformer)
 
-## 📊 NL2SQL Benchmark
+## 📊 Text-to-SQL Benchmark
 We create a timeline of the benchmark's development and mark relevant milestones. You can get more details from this chapter: [📊 Benchmark](chapter/Benchmark.md)
 <p align="center">
 <img width="800" src="./assets/Dataset_timeline.svg"/>
@@ -252,16 +255,16 @@ We create a timeline of the benchmark's development and mark relevant milestones
 
 ## 🎯 Where Are We Going?
 
-* 🎯Solve Open NL2SQL Problem
-* 🎯Develop Cost-effective NL2SQL Methods
-* 🎯Make NL2SQL Solutions Trustworthy
-* 🎯NL2SQL with Ambiguous and Unspecified NL Queries
+* 🎯Solve Open Text-to-SQL Problem
+* 🎯Develop Cost-effective Text-to-SQL Methods
+* 🎯Make Text-to-SQL Solutions Trustworthy
+* 🎯Text-to-SQL with Ambiguous and Unspecified NL Queries
 * 🎯Adaptive Training Data Synthesis
 
 ## 📖 Catalog for Our Survey
 You can get more information from our subsection. We introduce representative papers on related concepts:
 * [Pre-Processing](chapter/Pre_Processing.md)
-* [NL2SQL Translation Methods](chapter/Translation_method.md)
+* [Text-to-SQL Translation Methods](chapter/Translation_method.md)
 * [Post-Processing](chapter/Post_Processing.md)
 * [Benchmark](chapter/Benchmark.md)
 * [Evaluation](chapter/Evaluation.md)
@@ -270,10 +273,10 @@ You can get more information from our subsection. We introduce representative pa
 ## 💾 Practical Guide for Novice
 
 ### 📊 How to get data:
-* We collect NL2SQL benchmark features and download links for you. You can get more details from this chapter: [Benchmark](chapter/Benchmark.md)
+* We collect Text-to-SQL benchmark features and download links for you. You can get more details from this chapter: [Benchmark](chapter/Benchmark.md)
 * The analysis code for benchmarks is available in the `src/dataset_analysis` directory. Benchmark analysis reports can be found in the `report/` directory.
 
-### 🛠️ How to build an LLM-based NL2SQL model:
+### 🛠️ How to build an LLM-based Text-to-SQL model:
 
 * Litgpt [Repository Link](https://github.com/Lightning-AI/litgpt)
 
@@ -310,8 +313,14 @@ You can get some inspiration from the Roadmap and Decision Flow.
 <img width="800" src="./assets/NL2SQL_Guidance.svg"/>
 </p>
 
-## 📱 NL2SQL Related Applications:
+## 📱 Text-to-SQL Related Applications:
 
 * Chat2DB: AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more. [<img src="https://img.shields.io/badge/Repositor Link-grey">](https://github.com/codePhiliaX/Chat2DB) [<img src="https://img.shields.io/badge/Web Link-98f">](https://chat2db-ai.com/zh-CN)
 * DB-GPT: AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents. [<img src="https://img.shields.io/badge/Repositor Link-grey">](https://github.com/eosphoros-ai/DB-GPT) 
 * Postgres.new: In-browser Postgres sandbox with AI assistance.  [<img src="https://img.shields.io/badge/Repositor Link-grey">](https://github.com/supabase-community/postgres-new/tree/main) [<img src="https://img.shields.io/badge/Web Link-98f">](https://postgres.new/)
+
+## 📮Connect with Us
+Please feel free to contact us if we missed any interesting work.
+
+📧 xliu371[at]connect.hkust-gz.edu.cn
+
