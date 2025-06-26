@@ -98,7 +98,7 @@ Where are we, and where are we going？
 1. Grounding Natural Language to SQL Translation with Data-Based Self-Explanations.<img src="https://img.shields.io/badge/ICDE'2025-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.02948) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Kaimary/CycleSQL)
 1. AID-SQL: Adaptive In-Context Learning of Text-to-SQL with Difficulty-Aware Instruction and Retrieval-Augmented Generation. <img src="https://img.shields.io/badge/ICDE'2025-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.computer.org/csdl/proceedings-article/icde/2025/360300d945/26FZCc99mg0) 
 1. CLEAR: A Parser-Independent Disambiguation Framework for NL2SQL.
-<img src="https://img.shields.io/badge/ICDE'2025-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.computer.org/csdl/proceedings-article/icde/2025/360300d302/26FZBD2hBJe) [<img src="https://img.shields.io/badge/Code-grey">]()
+<img src="https://img.shields.io/badge/ICDE'2025-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.computer.org/csdl/proceedings-article/icde/2025/360300d302/26FZBD2hBJe) 
 1. CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL.
 <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01943v1) 
 1. Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows.
@@ -124,6 +124,8 @@ ORATION FOR TEXT-TO-SQL. <img src="https://img.shields.io/badge/ICLR'2025-bright
 1. SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2504.08600) 
 1. Is Long Context AIl You Need? Leveraging LLM's ExtendedContext for NL2SQL.
 <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.12372)
+1. Arctic-Text2SQL-R1: Simple Rewards, Strong Reasoning in Text-to-SQL. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2505.20315) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/snowflakedb/ArcticTraining)
+1. Corrective Self-Consistency in Text-to-SQL via Reinforcement Learning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2505.13271) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/CycloneBoy/csc_sql)
 1. SQLForge: Synthesizing Reliable and Diverse Data to Enhance
 Text-to-SQL Reasoning in LLMs.
 <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2505.13725)
