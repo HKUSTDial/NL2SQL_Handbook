@@ -74,7 +74,7 @@ Where are we, and where are we going?
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2410.01066)
 1. Natural language interfaces for tabular data querying and visualization: A survey.
 <img src="https://img.shields.io/badge/TKDE'2024-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2310.17894)
-1. Natural Language Interfaces for Databases with Deep Learning.<img src="https://img.shields.io/badge/VLDB'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1007/s00778-022-00776-8)
+1. Natural Language Interfaces for Databases with Deep Learning.<img src="https://img.shields.io/badge/VLDB'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.14778/3611540.3611575)
 1. A survey on deep learning approaches for text-to-SQL.
 <img src="https://img.shields.io/badge/VLDBJ'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1007/s00778-022-00776-8)
 1. Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect.
