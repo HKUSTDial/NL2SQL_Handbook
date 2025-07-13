@@ -104,6 +104,10 @@ Where are we, and where are we going?
 1. Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows.
 <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.07763) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/xlang-ai/Spider2)
 1. ROUTE: Robust Multitask Tuning and Collaboration for Text-to-SQL. <img src="https://img.shields.io/badge/ICLR'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2412.10138)
+1. SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL.<img src="https://img.shields.io/badge/ACL'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2506.00391)
+1. DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph. <img src="https://img.shields.io/badge/ACL'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2505.19956)
+1. Uncovering the Impact of Chain-of-Thought Reasoning for Direct Preference Optimization: Lessons from Text-to-SQL.<img src="https://img.shields.io/badge/ACL'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.11656)
+1. STaR-SQL: Self-Taught Reasoner for Text-to-SQL. <img src="https://img.shields.io/badge/ACL'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.13550)
 1. Confidence Estimation for Error Detection in Text-to-SQL Systems. <img src="https://img.shields.io/badge/AAAI'2025-cyan"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.09527)
 1. SQLord: A Robust Enterprise Text-to-SQL Solution via Reverse Data Generation and Workflow Decomposition. <img src="https://img.shields.io/badge/WWW'2025-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/pdf/10.1145/3701716.3715541)
 1. DBCopilot: Scaling Natural Language Querying to Massive Databases.<img src="https://img.shields.io/badge/EDBT/ICDT'2025-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.03463) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/tshu-w/DBCopilot)
@@ -117,7 +121,10 @@ Where are we, and where are we going?
 <img src="https://img.shields.io/badge/NAACL'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2409.12172) [<img src="https://img.shields.io/badge/Code-grey">](https://sig4kg.github.io/archer-bench/)
 1. SQLong: Enhanced NL2SQL for Longer Contexts with LLMs.
 <img src="https://img.shields.io/badge/ACL(Workshop)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.16747) 
-1. EllieSQL: Cost-Efficient Text-to-SQL with Complexity-Aware Routing. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2503.22402) [<img src="https://img.shields.io/badge/Code-grey">](https://elliesql.github.io/)
+1. EllieSQL: Cost-Efficient Text-to-SQL with Complexity-Aware Routing. <img src="https://img.shields.io/badge/COLM'2025-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2503.22402) [<img src="https://img.shields.io/badge/Code-grey">](https://elliesql.github.io/)
+1. Automatic Metadata Extraction for Text-to-SQL. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2505.19988) <img src="https://img.shields.io/badge/BIRD Top1-blue">
+1. CSC-SQL: Corrective Self-Consistency in Text-to-SQL via Reinforcement Learning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2505.13271) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/CycloneBoy/csc_sql/)
+1. Cheaper, Better, Faster, Stronger: Robust Text-to-SQL without Chain-of-Thought or Fine-Tuning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2505.14174) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/genaasia/N-rep)
 1. Reward-SQL: Boosting Text-to-SQL via Stepwise Reasoning and Process-Supervised Rewards. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2505.04671) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ruc-datalab/RewardSQL)
 1. SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2504.08600) 
 1. Is Long Context All You Need? Leveraging LLM's Extended Context for NL2SQL.
@@ -246,6 +253,7 @@ Text-to-SQL Reasoning in LLMs.
 <img src="https://img.shields.io/badge/arXiv'2023-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.11242) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/wbbeyourself/MAC-SQL)
 1. SQLformer: Deep Auto-Regressive Query Graph Generation for Text-to-SQL Translation.
 <img src="https://img.shields.io/badge/arXiv'2023-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2310.18376) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/AdrianBZG/SQLformer)
+
 
 ## 📊 Text-to-SQL Benchmark
 We create a timeline of the benchmark's development and mark relevant milestones. You can get more details from this chapter: [📊 Benchmark](chapter/Benchmark.md)
