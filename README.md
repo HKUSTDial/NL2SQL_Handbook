@@ -64,7 +64,7 @@ utilizing the language model.
 
 1. A Survey of Text-to-SQL in the Era of LLMs:
 Where are we, and where are we going?
-<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2408.05109) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL_Handbook)
+<img src="https://img.shields.io/badge/TKDE'2025-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2408.05109) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL_Handbook)
 1. A Survey on Employing Large Language Models for Text-to-SQL Tasks.
 <img src="https://img.shields.io/badge/CSUR'2024-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.15186)
 1. Next-generation database interfaces: A survey of LLM-based Text-to-SQL.<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.08426)
