@@ -118,10 +118,15 @@ Where are we, and where are we going?
 1. Utilising Large Language Models for Adversarial Attacks in Text-to-SQL: A Perpetrator and Victim Approach.
 <img src="https://img.shields.io/badge/BTW'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.20657) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/XGenerationLab/XiYan-DBDescGen)
 1. You Only Read Once (YORO): Learning to Internalize Database Knowledge for Text-to-SQL.
-<img src="https://img.shields.io/badge/NAACL'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2409.12172) [<img src="https://img.shields.io/badge/Code-grey">](https://sig4kg.github.io/archer-bench/)
-1. SQLong: Enhanced NL2SQL for Longer Contexts with LLMs.
-<img src="https://img.shields.io/badge/ACL(Workshop)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.16747) 
+<img src="https://img.shields.io/badge/NAACL'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2409.12172) [<img src="https://img.shields.io/badge/Code-grey">](https://sig4kg.github.io/archer-bench/) 
 1. EllieSQL: Cost-Efficient Text-to-SQL with Complexity-Aware Routing. <img src="https://img.shields.io/badge/COLM'2025-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2503.22402) [<img src="https://img.shields.io/badge/Code-grey">](https://elliesql.github.io/)
+1. PARSQL: Enhancing Text-to-SQL through SQL Parsing and Reasoning. <img src="https://img.shields.io/badge/ACL(Findings)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2024.findings-acl.120/)
+1. UCS-SQL: Uniting Content and Structure for Enhanced Semantic Bridging In Text-to-SQL. <img src="https://img.shields.io/badge/ACL(Findings)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/forum?id=xnTouV7wyr)
+1. SQLForge: Synthesizing Reliable and Diverse Data to Enhance Text-to-SQL Reasoning in LLMs. <img src="https://img.shields.io/badge/ACL(Findings)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2505.13725)
+1. Optimizing Reasoning for Text-to-SQL with Execution Feedback. <img src="https://img.shields.io/badge/ACL(Findings)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2503.19988)
+1. Knowledge Base Construction for Knowledge-Augmented Text-to-SQL. <img src="https://img.shields.io/badge/ACL(Findings)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2505.22096)
+1. SQLong: Enhanced NL2SQL for Longer Contexts with LLMs.
+<img src="https://img.shields.io/badge/ACL(Workshop)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.16747)
 1. Automatic Metadata Extraction for Text-to-SQL. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2505.19988) <img src="https://img.shields.io/badge/BIRD Top1-blue">
 1. CSC-SQL: Corrective Self-Consistency in Text-to-SQL via Reinforcement Learning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2505.13271) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/CycloneBoy/csc_sql/)
 1. Cheaper, Better, Faster, Stronger: Robust Text-to-SQL without Chain-of-Thought or Fine-Tuning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2505.14174) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/genaasia/N-rep)
