@@ -2,7 +2,7 @@
 
  <h3 align="center">NL2SQL Handbook</h3>
 
-From this repository, you can view the 📚[latest advancements](#-text-to-sql-survey--tutorial) in Text-to-SQL (a.k.a NL2SQL). This handbook corresponds to our survey paper[TKDE'2025]: [📖A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?](https://arxiv.org/abs/2408.05109). We also provide [tutorial slides](./slides/NL2SQL_handbook.pdf) to summarize the key points of this survey. Based on language model trends, we've created a river diagram of Text-to-SQL methods to trace the field's evolution. 
+From this repository, you can view the 📚[latest advancements](#-text-to-sql-survey--tutorial) in Text-to-SQL (a.k.a NL2SQL). This handbook corresponds to our survey paper[TKDE'2025]: [📖A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?](https://arxiv.org/abs/2408.05109). We also provide [tutorial slides](./slides/NL2SQL_handbook.pdf) [Update soon for VLDB'2025 Tutorial]to summarize the key points of this survey. Based on language model trends, we've created a river diagram of Text-to-SQL methods to trace the field's evolution. 
 
 If you are a novice, don't worry—we have prepared a practical guide for you, covering a wide range of [foundational materials](#-practical-guide-for-novice) and related [applications](#-text-to-sql-related-applications). 📧If we missed any interesting work, [connect with us](#connect-with-us).
 
