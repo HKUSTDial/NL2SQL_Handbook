@@ -65,6 +65,7 @@ utilizing the language model.
 1. A Survey of Text-to-SQL in the Era of LLMs:
 Where are we, and where are we going?
 <img src="https://img.shields.io/badge/TKDE'2025-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2408.05109) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL_Handbook)
+1. Natural Language to SQL: State of the Art and Open Problems. <img src="https://img.shields.io/badge/VLDB'2025-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/VLDB25-NL2SQL.pdf)
 1. A Survey on Employing Large Language Models for Text-to-SQL Tasks.
 <img src="https://img.shields.io/badge/CSUR'2024-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.15186)
 1. Next-generation database interfaces: A survey of LLM-based Text-to-SQL.<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.08426)
@@ -91,6 +92,10 @@ Where are we, and where are we going?
 1. NL2SQL-BUGs: A Benchmark for Detecting Semantic Errors in NL2SQL Translation.<img src="https://img.shields.io/badge/SIGKDD'2025-B6FFBB"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2503.11984) [<img src="https://img.shields.io/badge/Code-grey">](https://nl2sql-bugs.github.io/)
 1. Sphinteract: Resolving Ambiguities in NL2SQL Through User Interaction.
 <img src="https://img.shields.io/badge/VLDB'2025-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.vldb.org/pvldb/vol18/p1145-zhao.pdf) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ZhaoFuheng/Sphinteract)
+1. OmniSQL: Synthesizing High-quality Text-to-SQL Data at Scale. <img src="https://img.shields.io/badge/VLDB'2025-blue"> [<img src="https://img.shields.io/badge/Paper-grey">]([https://www.vldb.org/pvldb/vol18/p1145-zhao.pdf](https://arxiv.org/abs/2503.02240)) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/RUCKBReasoning/OmniSQL)
+1. EVOSCHEMA: TOWARDS TEXT-TO-SQL ROBUSTNESS AGAINST SCHEMA EVOLUTION. <img src="https://img.shields.io/badge/VLDB'2025-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/pdf?id=NfUHBaZdLw)
+1. Is Long Context All You Need? Leveraging LLM's Extended Context for NL2SQL. <img src="https://img.shields.io/badge/VLDB'2025-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.12372) 
+1. The Power of Constraints in Natural Language to SQL Translation. <img src="https://img.shields.io/badge/VLDB'2025-blue"> 
 1. OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment. <img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.14913) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/OpenSearch-AI/OpenSearch-SQL)
 1. Reliable Text-to-SQL with Adaptive Abstention.<img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.10858) 
 1. SNAILS: Schema Naming Assessments for Improved LLM-Based SQL Inference.<img src="https://img.shields.io/badge/SIGMOD'2025-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3709727)
@@ -133,8 +138,6 @@ Where are we, and where are we going?
 1. Cheaper, Better, Faster, Stronger: Robust Text-to-SQL without Chain-of-Thought or Fine-Tuning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2505.14174) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/genaasia/N-rep)
 1. Reward-SQL: Boosting Text-to-SQL via Stepwise Reasoning and Process-Supervised Rewards. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2505.04671) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ruc-datalab/RewardSQL)
 1. SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2504.08600) 
-1. Is Long Context All You Need? Leveraging LLM's Extended Context for NL2SQL.
-<img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.12372)
 1. Arctic-Text2SQL-R1: Simple Rewards, Strong Reasoning in Text-to-SQL. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2505.20315) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/snowflakedb/ArcticTraining)
 1. Corrective Self-Consistency in Text-to-SQL via Reinforcement Learning. <img src="https://img.shields.io/badge/arXiv'2025-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2505.13271) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/CycloneBoy/csc_sql)
 1. SQLForge: Synthesizing Reliable and Diverse Data to Enhance
