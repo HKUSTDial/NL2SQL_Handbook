@@ -11,11 +11,12 @@ If you are a novice, don't worry—we have prepared a practical guide for you, c
 </p>
 
 ```bibtex
-@article{liu2024survey,
-  title={A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?},
+@article{liu2025survey,
+  title={A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?},
   author={Liu, Xinyu and Shen, Shuyu and Li, Boyan and Ma, Peixian and Jiang, Runzhi and Zhang, Yuxin and Fan, Ju and Li, Guoliang and Tang, Nan and Luo, Yuyu},
-  journal={arXiv preprint arXiv:2408.05109},
-  year={2024}
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2025},
+  publisher={IEEE}
 }
 ```
 
