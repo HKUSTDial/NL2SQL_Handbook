@@ -91,6 +91,7 @@ Where are we, and where are we going?
 1. Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search
 <img src="https://img.shields.io/badge/ICML'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2502.17248) [<img src="https://img.shields.io/badge/Code-grey">](https://alpha-sql-hkust.github.io/)
 1. NL2SQL-BUGs: A Benchmark for Detecting Semantic Errors in NL2SQL Translation.<img src="https://img.shields.io/badge/SIGKDD'2025-B6FFBB"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2503.11984) [<img src="https://img.shields.io/badge/Code-grey">](https://nl2sql-bugs.github.io/)
+1. Structure-Guided Large Language Models for Text-to-SQL Generation. <img src="https://img.shields.io/badge/ICML'2025-brightgreen"> [<img src="https://img.shields.io/badge/Paper-grey">](https://icml.cc/virtual/2025/poster/44477)
 1. Sphinteract: Resolving Ambiguities in NL2SQL Through User Interaction.
 <img src="https://img.shields.io/badge/VLDB'2025-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://www.vldb.org/pvldb/vol18/p1145-zhao.pdf) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/ZhaoFuheng/Sphinteract)
 1. OmniSQL: Synthesizing High-quality Text-to-SQL Data at Scale. <img src="https://img.shields.io/badge/VLDB'2025-blue"> [<img src="https://img.shields.io/badge/Paper-grey">]([https://www.vldb.org/pvldb/vol18/p1145-zhao.pdf](https://arxiv.org/abs/2503.02240)) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/RUCKBReasoning/OmniSQL)
