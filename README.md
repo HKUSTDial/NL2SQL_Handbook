@@ -1,10 +1,19 @@
  <h1 align="center">Text-to-SQL Handbook</h1>
 
  <h3 align="center">NL2SQL Handbook</h3>
+ 
+From this repository, you can explore [the latest advancements](#-text-to-sql-survey--tutorial) in Text-to-SQL research(a.k.a NL2SQL).  
+This handbook corresponds to:  
 
-From this repository, you can view the 📚[latest advancements](#-text-to-sql-survey--tutorial) in Text-to-SQL (a.k.a NL2SQL). This handbook corresponds to our survey paper[TKDE'2025]: [📖A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?](https://arxiv.org/abs/2408.05109). We also provide [tutorial slides](./slides/NL2SQL-VLDB2025.pptx) for VLDB'2025 Tutorial and summarize the key points of this survey. Based on language model trends, we've created a river diagram of Text-to-SQL methods to trace the field's evolution. 
+- **[Survey] A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?**  
+  <img src="https://img.shields.io/badge/TKDE'2025-green"> 
+  [<img src="https://img.shields.io/badge/Survey%20Paper-grey">](https://arxiv.org/abs/2408.05109)
+  [<img src="https://img.shields.io/badge/Slides-orange">](./slides/NL2SQL_handbook.pdf)
 
-If you are a novice, don't worry—we have prepared a practical guide for you, covering a wide range of [foundational materials](#-practical-guide-for-novice) and related [applications](#-text-to-sql-related-applications). 📧If we missed any interesting work, [connect with us](#connect-with-us).
+- **[Tutorial] Natural Language to SQL: State of the Art and Open Problems**  
+  <img src="https://img.shields.io/badge/VLDB'2025-blue"> 
+  [<img src="https://img.shields.io/badge/Tutorial%20Paper-grey">](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/VLDB25-NL2SQL.pdf) 
+  [<img src="https://img.shields.io/badge/Slides-orange">](./slides/NL2SQL-VLDB2025.pdf)
 
 <p align="center">
 <img width="800" src="./assets/river.svg"/>
@@ -19,6 +28,8 @@ If you are a novice, don't worry—we have prepared a practical guide for you, c
   publisher={IEEE}
 }
 ```
+📧If we missed any interesting work, [connect with us](#connect-with-us).
+
 
 ## 🧭 Text-to-SQL Introduction 
 Translating users' natural language queries (NL) into SQL queries can significantly reduce barriers to accessing relational databases and support various commercial applications. The performance of Text-to-SQL has been greatly improved with the emergence of language models (LMs). In this context, it is crucial to assess our current position, determine the Text-to-SQL solutions that should be adopted for specific scenarios by practitioners, and identify the research topics that researchers should explore next.
