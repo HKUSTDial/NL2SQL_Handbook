@@ -15,6 +15,12 @@ This handbook corresponds to:
   [<img src="https://img.shields.io/badge/Tutorial%20Paper-grey">](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/VLDB25-NL2SQL.pdf) 
   [<img src="https://img.shields.io/badge/Slides-orange">](./slides/NL2SQL-VLDB2025.pdf)
 
+- **[Research] The Dawn of Natural Language to SQL: Are We Fully Ready?**  
+  <img src="https://img.shields.io/badge/VLDB'2024-blue"> 
+  [<img src="https://img.shields.io/badge/Research%20Paper-grey">](https://www.vldb.org/pvldb/vol17/p3318-luo.pdf) 
+  [<img src="https://img.shields.io/badge/Slides-orange">](./slides/NL2SQL360-VLDB2024.pdf)
+  [<img src="https://img.shields.io/badge/Code-purple">](https://github.com/HKUSTDial/NL2SQL360)
+
 <p align="center">
 <img width="800" src="./assets/river.svg"/>
 </p>
