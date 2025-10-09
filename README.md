@@ -81,9 +81,9 @@ utilizing the language model.
 Where are we, and where are we going?
 <img src="https://img.shields.io/badge/TKDE'2025-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2408.05109) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/HKUSTDial/NL2SQL_Handbook)
 1. Natural Language to SQL: State of the Art and Open Problems. <img src="https://img.shields.io/badge/VLDB'2025-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/VLDB25-NL2SQL.pdf)
+1. Next-generation database interfaces: A survey of LLM-based Text-to-SQL.<img src="https://img.shields.io/badge/TKDE'2025-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.08426)
 1. A Survey on Employing Large Language Models for Text-to-SQL Tasks.
 <img src="https://img.shields.io/badge/CSUR'2024-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2407.15186)
-1. Next-generation database interfaces: A survey of LLM-based Text-to-SQL.<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2406.08426)
 1. Large Language Model Enhanced Text-to-SQL Generation: A Survey.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2410.06011)
 1. From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems.
@@ -135,14 +135,16 @@ Where are we, and where are we going?
 1. Confidence Estimation for Error Detection in Text-to-SQL Systems. <img src="https://img.shields.io/badge/AAAI'2025-cyan"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2501.09527)
 1. SQLord: A Robust Enterprise Text-to-SQL Solution via Reverse Data Generation and Workflow Decomposition. <img src="https://img.shields.io/badge/WWW'2025-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/pdf/10.1145/3701716.3715541)
 1. DBCopilot: Scaling Natural Language Querying to Massive Databases.<img src="https://img.shields.io/badge/EDBT/ICDT'2025-orange"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.03463) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/tshu-w/DBCopilot)
-1. Boosting Text-to-SQL through Multi-grained Error Identification.
-<img src="https://img.shields.io/badge/COLING'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2025.coling-main.289.pdf)
-1. Gen-SQL: Efficient Text-to-SQL By Bridging Natural Language Question And Database Schema With Pseudo-Schema.
-<img src="https://img.shields.io/badge/COLING'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2025.coling-main.256/)
 1. Utilising Large Language Models for Adversarial Attacks in Text-to-SQL: A Perpetrator and Victim Approach.
 <img src="https://img.shields.io/badge/BTW'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2502.20657) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/XGenerationLab/XiYan-DBDescGen)
 1. You Only Read Once (YORO): Learning to Internalize Database Knowledge for Text-to-SQL.
 <img src="https://img.shields.io/badge/NAACL'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2409.12172) [<img src="https://img.shields.io/badge/Code-grey">](https://sig4kg.github.io/archer-bench/)
+1. Boosting Text-to-SQL through Multi-grained Error Identification.
+<img src="https://img.shields.io/badge/COLING'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2025.coling-main.289.pdf)
+1. Gen-SQL: Efficient Text-to-SQL By Bridging Natural Language Question And Database Schema With Pseudo-Schema.
+<img src="https://img.shields.io/badge/COLING'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2025.coling-main.256/)
+1. MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL.
+<img src="https://img.shields.io/badge/COLING'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.11242) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/wbbeyourself/MAC-SQL)
 1. PARSQL: Enhancing Text-to-SQL through SQL Parsing and Reasoning. <img src="https://img.shields.io/badge/ACL(Findings)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2024.findings-acl.120/)
 1. UCS-SQL: Uniting Content and Structure for Enhanced Semantic Bridging In Text-to-SQL. <img src="https://img.shields.io/badge/ACL(Findings)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/forum?id=xnTouV7wyr)
 1. SQLForge: Synthesizing Reliable and Diverse Data to Enhance Text-to-SQL Reasoning in LLMs. <img src="https://img.shields.io/badge/ACL(Findings)'2025-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2505.13725)
@@ -275,8 +277,6 @@ Text-to-SQL Reasoning in LLMs.
 <img src="https://img.shields.io/badge/ACL(findings)'2023-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2023.findings-acl.352/) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/wbbeyourself/DTE)
 1. C3: Zero-shot Text-to-SQL with ChatGPT 
 <img src="https://img.shields.io/badge/arXiv'2023-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2307.07306) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/bigbigwatermalon/C3SQL)
-1. MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL.
-<img src="https://img.shields.io/badge/arXiv'2023-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2312.11242) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/wbbeyourself/MAC-SQL)
 1. SQLformer: Deep Auto-Regressive Query Graph Generation for Text-to-SQL Translation.
 <img src="https://img.shields.io/badge/arXiv'2023-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2310.18376) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/AdrianBZG/SQLformer)
 
