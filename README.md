@@ -93,6 +93,8 @@ Where are we, and where are we going?
 1. Natural Language Interfaces for Databases with Deep Learning.<img src="https://img.shields.io/badge/VLDB'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.14778/3611540.3611575)
 1. A survey on deep learning approaches for text-to-SQL.
 <img src="https://img.shields.io/badge/VLDBJ'2023-blue"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1007/s00778-022-00776-8)
+1. A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions.
+<img src="https://img.shields.io/badge/TKDE'2022-green"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2208.13629)
 1. Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect.
 <img src="https://img.shields.io/badge/COLING'2022-9cf"> [<img src="https://img.shields.io/badge/Paper-grey">](https://aclanthology.org/2022.coling-1.190/)
 1. A Deep Dive into Deep Learning Approaches for Text-to-SQL Systems.
