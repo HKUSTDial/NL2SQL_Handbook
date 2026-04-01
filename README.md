@@ -379,6 +379,7 @@ You can get some inspiration from the Roadmap and Decision Flow.
 * DB-GPT: AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents. [<img src="https://img.shields.io/badge/Repositor Link-grey">](https://github.com/eosphoros-ai/DB-GPT) 
 * Postgres.new: In-browser Postgres sandbox with AI assistance.  [<img src="https://img.shields.io/badge/Repositor Link-grey">](https://github.com/supabase-community/postgres-new/tree/main) [<img src="https://img.shields.io/badge/Web Link-98f">](https://postgres.new/)
 * QueryGPT – Natural Language to SQL Using Generative AI. [<img src="https://img.shields.io/badge/Web Link-98f">](https://www.uber.com/en-JP/blog/query-gpt/)
+* AI for Database: Agentic AI product for databases — connect any database (PostgreSQL, MySQL, MongoDB, etc.) and talk to it in plain English. Features self-refreshing intelligent dashboards, natural language queries, and automated action workflows that trigger on database changes. [<img src="https://img.shields.io/badge/Web Link-98f">](https://aifordatabase.com)
 
 ## 📮Connect with Us
 Please feel free to contact us if we missed any interesting work.
