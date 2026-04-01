@@ -378,6 +378,7 @@ You can get some inspiration from the Roadmap and Decision Flow.
 
 ## 📱 Text-to-SQL Related Applications:
 
+* AI for Database: Agentic AI product for databases — connect any database (PostgreSQL, MySQL, MongoDB, etc.) and talk to it in plain English. Features self-refreshing intelligent dashboards, natural language queries, and automated action workflows that trigger on database changes. [<img src="https://img.shields.io/badge/Web Link-98f">](https://aifordatabase.com)
 * Chat2DB: AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more. [<img src="https://img.shields.io/badge/Repositor Link-grey">](https://github.com/codePhiliaX/Chat2DB) [<img src="https://img.shields.io/badge/Web Link-98f">](https://chat2db-ai.com/zh-CN)
 * DB-GPT: AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents. [<img src="https://img.shields.io/badge/Repositor Link-grey">](https://github.com/eosphoros-ai/DB-GPT) 
 * Postgres.new: In-browser Postgres sandbox with AI assistance.  [<img src="https://img.shields.io/badge/Repositor Link-grey">](https://github.com/supabase-community/postgres-new/tree/main) [<img src="https://img.shields.io/badge/Web Link-98f">](https://postgres.new/)
