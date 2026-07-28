@@ -114,15 +114,10 @@ Where are we, and where are we going?
 2. DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning. <img src="https://img.shields.io/badge/SIGMOD'2026-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2602.12064) 
 3. Comparison and Analysis of Value Linking in Text-to-SQL systems: [Experiments & Analysis] <img src="https://img.shields.io/badge/SIGMOD'2026-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3802029) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/athenarc/experimental-analysis-of-value-linking)
 4. Reward-SQL: Boosting Text-to-SQL via Stepwise Execution-Aware Reasoning and Process-Supervised Rewards <img src="https://img.shields.io/badge/SIGMOD'2026-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3802105)
-
 5. DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning <img src="https://img.shields.io/badge/SIGMOD'2026-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3786640) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/thatmee/DIVER)
-
 6. PRISM: Navigating Cost–Accuracy Trade-offs for NL2SQL <img src="https://img.shields.io/badge/SIGMOD'2026-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3786679)
-
 7. SchemaRAG: A Schema-aware Retrieval-Augmented Generation Framework for Text-to-SQL <img src="https://img.shields.io/badge/SIGMOD'2026-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3786696) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/chelsea2002/SchemaRAG)
-
 8. Reliable Answers for Recurring Questions: Boosting Text-to-SQL Accuracy with Template-Constrained Decoding <img src="https://img.shields.io/badge/SIGMOD'2026-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3769822)
-
 9. PLForge: Enhancing Language Models for Natural Language to Procedural Extensions of SQL <img src="https://img.shields.io/badge/SIGMOD'2026-red"> [<img src="https://img.shields.io/badge/Paper-grey">](https://dl.acm.org/doi/10.1145/3769813)
 4. LogicCat: A Chain-of-Thought Text-to-SQL Benchmark for Complex Reasoning. <img src="https://img.shields.io/badge/AAAI'2026-cyan"> [<img src="https://img.shields.io/badge/Paper-grey">](https://ojs.aaai.org/index.php/AAAI/article/view/40243)
 5. Schema on the Inside: A Two-Phase Fine-Tuning Method for High-Efficiency Text-to-SQL at Scale. <img src="https://img.shields.io/badge/AAAI'2026-cyan"> [<img src="https://img.shields.io/badge/Paper-grey">](https://ojs.aaai.org/index.php/AAAI/article/view/41446)
