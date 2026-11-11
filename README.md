@@ -265,11 +265,11 @@ Where are we, and where are we going?
 1. A Plug-and-Play Natural Language Rewriter for Natural Language to SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2412.17068) 
 1. RSL-SQL: Robust Schema Linking in Text-to-SQL Generation.   
-<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2403.15879) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/glee4810/TrustSQL)
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2411.00073) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Laqcce-cao/RSL-SQL)
 1. In-Context Reinforcement Learning based Retrieval-Augmented Generation for Text-to-SQL.
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://assets.amazon.science/09/f4/493c574346f895bbb0303282a501/in-context-reinforcement-learning-based-retrieval-augmented-generation-for-text-to-sql.pdf) 
 1. TrustSQL: Benchmarking Text-to-SQL Reliability with Penalty-Based Scoring.
-<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/pdf/2411.00073) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/Laqcce-cao/RSL-SQL)
+<img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://arxiv.org/abs/2403.15879) [<img src="https://img.shields.io/badge/Code-grey">](https://github.com/glee4810/TrustSQL)
 1. LAIA-SQL: Enhancing Natural Language to SQL Generation in Multi-Table QA via Task Decomposition and Keyword Extraction
 <img src="https://img.shields.io/badge/arXiv'2024-purple"> [<img src="https://img.shields.io/badge/Paper-grey">](https://openreview.net/pdf?id=WYdpjwKQma)
 1. Research on Large Model Text-to-SQL Optimization Method for Intelligent Interaction in the Field of Construction Safety.
